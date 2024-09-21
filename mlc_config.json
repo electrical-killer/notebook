@@ -1,0 +1,17 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^/img/"
+    },
+    {
+      "pattern": "run-a-chaos-experiment.md"
+    },
+    {
+      "pattern": "^http://localhost"
+    },
+    {
+      "pattern": "^https://twitter.com"
+    }
+  ],
+  "aliveStatusCodes": [200, 403, 500, 502, 503]
+}
