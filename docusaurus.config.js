@@ -47,13 +47,47 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            label: 'Project',
+            position: 'left',
+            items: [
+              { label: 'P-WEB', to: '/docs/project_web',},
+              { label: 'P-IOT', to: '/docs/project_iot',},
+            ],
+          },
+          {
+            label: 'Baisc',
+            position: 'left',
+            items: [
+              { label: 'Code', to: '/docs/basic_code',},
+              { label: 'Data Structure', to: '/docs/basic_data',},
+              { label: 'Algorithm', to: '/docs/basic_algorithm',},
+              { label: 'Design Mode', to: '/docs/basic_design_mode',},
+              { label: 'Computer', to: '/docs/basic_computer',},
+            ],
+          },
+          {
+            label: 'Subject',
+            position: 'left',
+            items: [
+              { label: 'Embedded', to: '/docs/subject_embedded',},
+              { label: 'Linux', to: '/docs/subject_linux',},
+              { label: 'Tcpip', to: '/docs/subject_tcpip',},
+              { label: 'Web', to: '/docs/subject_web',},
+            ],
+          },
+          // {
+          //   label: 'Other',
+          //   position: 'left',
+          //   items: [
+          //   ],
+          // },
+          {
+            label: 'Tools',
+            position: 'right',
+            to: '/docs/subject_tools',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
