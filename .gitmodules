@@ -2,3 +2,7 @@
 	path = blog
 	url = git@github.com:electrical-killer/notebook.blog.git
 	branch = master
+[submodule "docs"]
+	path = docs
+	url = git@github.com:electrical-killer/notebook.docs.git
+	branch = master

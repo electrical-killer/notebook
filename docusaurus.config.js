@@ -49,22 +49,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            label: 'Project',
-            position: 'left',
-            items: [
-              { label: 'P-WEB', to: '/docs/project_web',},
-              { label: 'P-IOT', to: '/docs/project_iot',},
-            ],
-          },
-          {
             label: 'Baisc',
             position: 'left',
             items: [
               { label: 'Code', to: '/docs/basic_code',},
               { label: 'Data Structure', to: '/docs/basic_data',},
-              { label: 'Algorithm', to: '/docs/basic_algorithm',},
-              { label: 'Design Mode', to: '/docs/basic_design_mode',},
-              { label: 'Computer', to: '/docs/basic_computer',},
+              // { label: 'Algorithm', to: '/docs/basic_algorithm',},
+              // { label: 'Design Mode', to: '/docs/basic_design_mode',},
+              // { label: 'Computer', to: '/docs/basic_computer',},
             ],
           },
           {
@@ -77,6 +69,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               { label: 'Web', to: '/docs/subject_web',},
             ],
           },
+          {
+            label: 'Project',
+            position: 'left',
+            items: [
+              { label: 'P-WEB', to: '/docs/project_web',},
+              // { label: 'P-IOT', to: '/docs/project_iot',},
+            ],
+          },
           // {
           //   label: 'Other',
           //   position: 'left',
@@ -85,7 +85,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           // },
           {
             label: 'Tools',
-            position: 'right',
+            position: 'left',
             to: '/docs/subject_tools',
           },
           {
@@ -97,7 +97,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'dark',
-        links: [
+/*         links: [
           {
             title: 'Docs',
             items: [
@@ -137,7 +137,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
-        ],
+        ], */
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
