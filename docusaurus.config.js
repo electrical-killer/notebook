@@ -54,9 +54,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               { label: 'Code', to: '/docs/basic_code',},
               { label: 'Data Structure', to: '/docs/basic_data',},
-              // { label: 'Algorithm', to: '/docs/basic_algorithm',},
-              // { label: 'Design Mode', to: '/docs/basic_design_mode',},
-              // { label: 'Computer', to: '/docs/basic_computer',},
+              { label: 'Algorithm', to: '/docs/basic_algorithm',},
+              { label: 'Design Mode', to: '/docs/basic_design_mode',},
+              { label: 'Computer', to: '/docs/basic_computer',},
             ],
           },
           {
@@ -74,7 +74,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             items: [
               { label: 'P-WEB', to: '/docs/project_web',},
-              // { label: 'P-IOT', to: '/docs/project_iot',},
+              { label: 'P-IOT', to: '/docs/project_iot',},
             ],
           },
           // {
