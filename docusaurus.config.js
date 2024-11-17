@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
+  title: "ek's notebook",
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wiki.eksnotebook.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'favicon.ico',
+  organizationName: 'electrical-killer', // Usually your GitHub org/user name.
+  projectName: 'https://github.com/electrical-killer/notebook', // Usually your repo name.
 
   presets: [
     [
@@ -22,13 +22,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/electrical-killer/notebook/tree/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/electrical-killer/notebook/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,13 +41,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'NoteBook',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'http://127.0.0.1:5500/', label: 'Home', position: 'left'},
+          // {to: 'https://www.eksnotebook.com', label: 'Home', position: 'left'},
           {
             label: 'Baisc',
             position: 'left',
@@ -89,7 +91,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             to: '/docs/subject_tools',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/friends',
+            label: 'Friends',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/electrical-killer',
             label: 'GitHub',
             position: 'right',
           },
@@ -97,13 +104,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'dark',
-/*         links: [
+        links: [
           {
-            title: 'Docs',
+            title: 'Link',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '起始页',
+                to: 'http://127.0.0.1:5500/',
+                // to: 'https://www.eksnotebook.com',
+              },
+              {
+                label: '博客',
+                to: '/blog',
+              },
+              {
+                label: '导航',
+                to: '/website',
               },
             ],
           },
@@ -128,21 +144,41 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Friends',
+                to: '/friends',
+              },
+              {
+                label: 'About Me',
+                to: '/about',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/electrical-killer',
+              },
+              {
+                html: `
+                  <a href="https://docusaurus.io" target="_blank" rel="noreferrer noopener">
+                    <img src="/img/buildwith.png" alt="build with docusaurus" width="120" height="50"/>
+                  <a/>
+                  `,
               },
             ],
           },
-        ], */
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      // i18n: {
+      //   defaultLocale: 'zh-CN',
+      //   locales: ['en', 'zh-CN'],
+      //   localeConfigs: {
+      //     en: {
+      //       htmlLang: 'en-GB',
+      //     },
+      //   },
+      // },
     }),
 });
