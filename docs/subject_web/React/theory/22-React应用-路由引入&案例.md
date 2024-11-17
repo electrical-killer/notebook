@@ -2,7 +2,7 @@
 id: 1731505528
 slug: /subject_web/React/theory/1731505528
 title: React应用-路由引入&案例
-date: 2024-11-10
+date: 2024-11-17
 authors: Electrical Killer
 tags: [js, react, 路由, 案例]
 keywords: [js, react, 路由, 案例]
@@ -87,14 +87,18 @@ keywords: [js, react, 路由, 案例]
 
 <img src="https://img.eksnotebook.com/images/202411101655622.png" />
 
-## <案例1>路由基本使用
+## 案例仓库地址
+
+[gitee仓库地址test/router](https://gitee.com/electrical-killer/test/router)
+
+### <案例1>路由基本使用
 
 > - 下载`react-router-dom`
 > - 使用==本地`bootstrap.css`文件==
 
 <img src="https://img.eksnotebook.com/images/202411102219081.gif" />
 
-### 关键点
+#### 关键点
 
 1. 明确好界面中的导航区、展示区
 2. 导航区的a标签改为Link标签
@@ -104,7 +108,7 @@ keywords: [js, react, 路由, 案例]
 4. `<App>`的最外侧包裹了一个`<BrowserRouter>`或`<HashRouter>`
     - 两个路由器无法通信
 
-### 为什么NavLink默认有高亮?
+#### 为什么NavLink默认有高亮?
 
 NavLink 作为 Link 的升级版, 可以传入一个class属性:`activeClassName`
 而`NavLink`默认属性与`bootscrap.css`的高亮正好一致, 都是`active`
@@ -129,16 +133,16 @@ NavLink 作为 Link 的升级版, 可以传入一个class属性:`activeClassName
     <NavLink activeClassName="demo_css" className="list-group-item" to="/home">Home</NavLink>
     ```
 
-### 封装样式NavLink为一般组件
+#### 封装样式NavLink为一般组件
 
 ==关于如何接标签体内容??==
 其实, 标签体也是一种特殊的标签属性, 如下图内容
 
 <img src="https://img.eksnotebook.com/images/202411102046881.png" />
 
-### 路由组件&一般组件区别
+#### 路由组件&一般组件区别
 
-#### 存放位置&调用不同
+##### 存放位置&调用不同
 
 ```jsx
 // 一般组件: src/Components
@@ -149,7 +153,7 @@ NavLink 作为 Link 的升级版, 可以传入一个class属性:`activeClassName
 <Route path="/demo" component={Demo}/>
 ```
 
-#### 收到的props不同
+##### 收到的props不同
 
 ```jsx
 history:
@@ -169,7 +173,7 @@ match:
         /*  */ url: "/about"
 ```
 
-### Switch的使用
+#### Switch的使用
 
 - 通常情况下，path和component是一一对应的关系
 
@@ -177,7 +181,7 @@ match:
 
     <img src="https://img.eksnotebook.com/images/202411102057073.png"/>
 
-### 解决样式丢失问题
+#### 解决样式丢失问题
 
 > <img src="https://img.eksnotebook.com/images/202411102134419.png"/>
 >
@@ -196,7 +200,7 @@ match:
 -  ==仅适用于脚手架==
     <img src="https://img.eksnotebook.com/images/202411102119138.png"/>
 
-### 路由的模糊与严格匹配
+#### 路由的模糊与严格匹配
 
 - ==默认使用的是模糊匹配==
     - 【输入的路径】必须包含要【匹配的路径】，==且顺序要一致==
@@ -205,27 +209,114 @@ match:
     - `<Route exact path="/about" component={About}/>`
     - 严格匹配不要随便开启，需要再开，==有些时候开启会导致无法继续匹配二级路由==
 
-### 重定向Redirect
+#### 重定向Redirect
 
 <img src="https://img.eksnotebook.com/images/202411102151823.png"/>
 
 一般写在所有路由注册的最下方，当所有路由都无法匹配时，跳转到Redirect指定的路由
 
-## <案例2>路由嵌套使用
+### <案例2>路由嵌套使用
 
 <img src="https://img.eksnotebook.com/images/202411102217905.gif" />
 
-### 嵌套路由使用说明
+#### 嵌套路由使用说明
 
 1. 路由的路径匹配, 都是从注册顺序比较的
 2. 注册子路由时要写上父路由的path值
 
-## <案例3>向路由组件传递参数数据
+### <案例3>向路由组件传递参数数据
 
 <img src="https://img.eksnotebook.com/images/202411101637597.gif" />
 
+#### params参数
 
+```markdown
+路由链接(携带参数)：
+<Link to='/demo/test/tom/18'}>详情</Link>
 
-## <案例4>多种路由跳转方式
+注册路由(声明接收)：
+<Route path="/demo/test/:name/:age" component={Test}/>
+
+接收参数：
+	this.props.match.params
+```
+
+#### search参数
+
+```markdown
+路由链接(携带参数)：
+<Link to='/demo/test?name=tom&age=18'}>详情</Link>
+
+注册路由(无需声明，正常注册即可)：
+<Route path="/demo/test" component={Test}/>
+
+接收参数：
+	this.props.location.search
+
+    备注：
+    获取到的search是urlencoded编码字符串，需要借助querystring解析
+    其中 querystring 已更新为 querystring-es3
+```
+
+#### state参数
+
+```markdown
+路由链接(携带参数)：
+<Link to={{pathname:'/demo/test',state:{name:'tom',age:18}}}>详情</Link>
+
+注册路由(无需声明，正常注册即可)：
+<Route path="/demo/test" component={Test}/>
+
+接收参数：
+	this.props.location.state
+	备注：刷新也可以保留住参数
+```
+
+### <案例4>多种路由跳转方式
 
 <img src="https://img.eksnotebook.com/images/202411101637833.gif" />
+
+```markdown
+借助this.prosp.history对象上的API对操作路由跳转、前进、后退
+    - this.prosp.history.push()
+    - this.prosp.history.replace()
+    - this.prosp.history.goBack()
+    - this.prosp.history.goForward()
+    - this.prosp.history.go()
+```
+
+#### 一般组件方法: withRouter
+
+> 注意上述路由跳转方式, 
+>
+> 只能用于路由组件才有 `.history` 属性
+
+withRouter可以加工一个一般组件, 让一般组件具备路由组件所特有的API
+
+返回值为一个新组件
+
+##### 使用方式
+
+```jsx
+// 将一般组件暴露方式修改一下
+class Header extends Component {}
+export default withRouter(Header)
+```
+
+## BrowserRouter与HashRouter的区别
+
+```markdown
+1.底层原理不一样：
+    BrowserRouter使用的是H5的history API，不兼容IE9及以下版本。
+    HashRouter使用的是URL的哈希值。
+    
+2.path表现形式不一样
+    BrowserRouter的路径中没有#,例如：localhost:3000/demo/test
+    HashRouter的路径包含#,例如：localhost:3000/#/demo/test
+    
+3.刷新后对路由state参数的影响
+    (1).BrowserRouter没有任何影响，因为state保存在history对象中。
+    (2).HashRouter刷新后会导致路由state参数的丢失！！！
+    
+    备注：HashRouter可以用于解决一些路径错误相关的问题。
+```
