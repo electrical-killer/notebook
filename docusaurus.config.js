@@ -90,11 +90,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             to: '/docs/subject_tools',
           },
-          {
-            to: '/friends',
-            label: 'Friends',
-            position: 'right',
-          },
+          // {
+          //   to: '/friends',
+          //   label: 'Friends',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/electrical-killer',
             label: 'GitHub',
@@ -117,10 +117,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: '博客',
                 to: '/blog',
               },
-              {
-                label: '导航',
-                to: '/website',
-              },
+              // {
+              //   label: '导航',
+              //   to: '/website',
+              // },
             ],
           },
           {
@@ -143,14 +143,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             title: 'More',
             items: [
-              {
-                label: 'Friends',
-                to: '/friends',
-              },
-              {
-                label: 'About Me',
-                to: '/about',
-              },
+              // {
+              //   label: 'Friends',
+              //   to: '/friends',
+              // },
+              // {
+              //   label: 'About Me',
+              //   to: '/about',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/electrical-killer',

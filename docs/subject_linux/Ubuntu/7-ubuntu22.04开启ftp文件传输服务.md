@@ -249,7 +249,7 @@ userlist_deny=NO
 
 > 这里做简单记录, 等日后用到再做研究, 文章地址[腾讯云轻量应用服务器Ubuntu20.04搭建 FTP 服务——解决Failed to establish connection的问题-CSDN博客](https://blog.csdn.net/weixin_42408707/article/details/128515942)
 
-![Snipaste_2024-11-19_21-10-50](./../../../../../Pictures/Snipaste_2024-11-19_21-10-50.png)
+<img src="https://img.eksnotebook.com/images/202411202222933.png"/>
 
 ## #. 问题解决
 
@@ -333,15 +333,15 @@ ubuntu@VM-16-15-ubuntu:/etc/ssl/private$
 
 #### - 问题解决
 
-![Snipaste_2024-11-19_20-24-34](./../../../../../Pictures/Snipaste_2024-11-19_20-24-34.png)
+<img src="https://img.eksnotebook.com/images/202411202222226.png"/>
 
 ### Q&A: 云服务器正常启动, 配置OK, 但是远程端无法连接
 
 检查官网服务器外围的防火墙规则是否添加, 如下图所示添加后, 即可正常访问
 
-![Snipaste_2024-11-19_21-05-52](./../../../../../Pictures/Snipaste_2024-11-19_21-05-52.png)
+<img src="https://img.eksnotebook.com/images/202411202222044.png"/>
 
 ### Q: 如上配置好后, windows可以正常传输, 但是警告返回不可路由地址???
 
-![Snipaste_2024-11-19_20-50-15](./../../../../../Pictures/Snipaste_2024-11-19_20-50-15.png)
+<img src="https://img.eksnotebook.com/images/202411202223197.png"/>
 
