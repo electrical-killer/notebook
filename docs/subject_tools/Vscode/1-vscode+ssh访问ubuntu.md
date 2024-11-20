@@ -90,7 +90,7 @@ ifconfig
 
 为解决该问题可以使用SSH公钥来进行设置
 
-1. 生成密钥, 见文章[ssh访问远程](../Git/1-github+ssh访问远程.md)
+1. 生成密钥, 见文章[ssh访问远程](https://wiki.eksnotebook.com/docs/subject_tools/Git/1731505174)
 
 2. `ssh-copy-id -i ~/.ssh/id_rsa.pub username@ip`给远程发送密钥
 

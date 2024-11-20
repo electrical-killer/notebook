@@ -13,7 +13,7 @@ keywords: [git, ssh]
 ## 写在前面
 
 - 当你使用`ssh链接`时, 注意要生成自己的`ssh公钥`, 否则无法推送, 报错权限不够
-    可参考文章[github+ssh访问远程](./1-github+ssh访问远程.md)
+    可参考文章[github+ssh访问远程](https://wiki.eksnotebook.com/docss/subject_tools/Git/1731505174)
 - 本地分支最好和远程分支名一样, 便于管理
 - 不想用 `CLI` , [几款优质 `GUI` 推荐](https://luhuadong.blog.csdn.net/article/details/125637680?)
 - 了解关于 `git签名` 的 `GPG`, [了解一下](https://zhuanlan.zhihu.com/p/445036058)
