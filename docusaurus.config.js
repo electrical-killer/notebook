@@ -48,8 +48,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: 'http://127.0.0.1:5500/', label: 'Home', position: 'left'},
-          // {to: 'https://www.eksnotebook.com', label: 'Home', position: 'left'},
+          // {to: 'http://127.0.0.1:5500/', label: 'Home', position: 'left'},
+          {to: 'https://www.eksnotebook.com', label: 'Home', position: 'left'},
           {
             label: 'Baisc',
             position: 'left',
@@ -110,8 +110,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: '起始页',
-                to: 'http://127.0.0.1:5500/',
-                // to: 'https://www.eksnotebook.com',
+                // to: 'http://127.0.0.1:5500/',
+                to: 'https://www.eksnotebook.com',
               },
               {
                 label: '博客',
