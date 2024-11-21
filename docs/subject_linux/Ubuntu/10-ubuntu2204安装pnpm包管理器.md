@@ -16,7 +16,13 @@ keywords: [ubuntu, npm, pnpm]
 
 1. 安装nodejs, `sudo apt install nodejs`
 
+    > 先看第五条, 第六条
+    >
+    > 再返回来继续
+
 2. 安装npm, `sudo apt install npm`
+
+    > 这里可以直接使用`aptitude`包管理器, 安装npm
 
     - 但是会遇到一个依赖`libssl-dev`的依赖`libssl3`版本不对问题
 
@@ -34,16 +40,6 @@ keywords: [ubuntu, npm, pnpm]
     - 再安装npm, `sudo apt install npm -y`
 
 3. 之后再安装pnpm就好`npm install -g pnpm`
-
-4. 安装完成后, 配置镜像
-
-    ```shell
-    # 获取当前配置的镜像地址
-    $ pnpm get registry
-    
-    # 设置新的镜像地址
-    $ pnpm set registry https://registry.npm.taobao.org
-    ```
 
 5. 测试pnpm安装版本, 结果因为nodejs版本过低查询失败
 
