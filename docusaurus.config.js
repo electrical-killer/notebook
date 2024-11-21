@@ -5,12 +5,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: "ek's notebook",
-  tagline: 'Dinosaurs are cool',
   url: 'https://wiki.eksnotebook.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'favicon.ico',
+  // onBrokenLinks: 'throw',
+  // onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
   organizationName: 'electrical-killer', // Usually your GitHub org/user name.
   projectName: 'https://github.com/electrical-killer/notebook', // Usually your repo name.
 
