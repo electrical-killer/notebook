@@ -64,7 +64,7 @@ keywords: [project, Docusaurus, picgo, deploy]
 
 2. 内容如下, 并且文件, **我放到了C盘下**
 
-    > 这里linux是默认不支持远程访问root, 参考文章[ubuntu不能使用root登录ssh](https://wiki.eksnotebook.com/docs//subject_linux/Ubuntu/1731505005)
+    > 这里linux是默认不支持远程访问root, 参考文章[ubuntu不能使用root登录ssh](/docs//subject_linux/Ubuntu/1731505005)
     >
     > ==注意删除注释==
     >

@@ -51,7 +51,7 @@ keywords: [github, https]
 - 删除 - [删除个人访问令牌](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#deleting-a-personal-access-token)
 
 - 使用 - [在命令行上使用个人访问令牌](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-personal-access-token-on-the-command-line)
-    - token 仅在 HTTPS 的 URL 中使用, SSL 的 URL 参考文章[github+ssh访问远程](https://wiki.eksnotebook.com/docs/subject_tools/Git/1731505174)
+    - token 仅在 HTTPS 的 URL 中使用, SSL 的 URL 参考文章[github+ssh访问远程](/docs/subject_tools/Git/1731505174)
     - 若 HTTPS 未使用 token 进行了pull push 等操作, 凭据可能已缓存在您的计算机上, 可以[在 Keychain 中更新凭据，](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain)以使用令牌替换旧密码
     - 还可以将令牌缓存在 git 中, 每次 git 自动读取操作
 
