@@ -166,7 +166,9 @@
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.
+                      <p>Great things are done by a series of small things brought together. -- Vincent Van Gogh</p>
+                      `,
       },
       // prism: {
       //   theme: lightCodeTheme,
