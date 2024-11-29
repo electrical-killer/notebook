@@ -166,9 +166,19 @@
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.
-                      <p>Great things are done by a series of small things brought together. -- Vincent Van Gogh</p>
-                      `,
+        copyright: `<p style="margin-bottom: 0;">
+                      <a href="http://beian.miit.gov.cn/">
+                        蒙ICP备2024020206号
+                      </a>
+                    </p>
+                    <p style="display: inline-flex; align-items: center;">
+                      <img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/>
+                      <a href="https://beian.mps.gov.cn/#/query/webSearch" >
+                        ...
+                      </a>
+                    </p>
+                    <p>Copyright © ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.</p>
+                    <p>Great things are done by a series of small things brought together. -- Vincent Van Gogh</p>`,
       },
       // prism: {
       //   theme: lightCodeTheme,
