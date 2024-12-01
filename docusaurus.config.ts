@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import type { GiscusConfig } from './src/components/Discuss'
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -68,6 +69,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg', //! 注意替换
     navbar: {
       title: 'NoteBook',
+      hideOnScroll: true, // 自动隐藏导航栏
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -206,7 +208,18 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    // 配置giscus
+    giscus: {
+      repo:'electrical-killer/notebook.discus',
+      repoId:'R_kgDONXMPYA',
+      category:'Announcements',
+      categoryId:'DIC_kwDONXMPYM4CkxZM',
+      theme: 'light',
+      darkTheme: 'dark_dimmed',
+    } satisfies Partial<GiscusConfig>,
+    //
   } satisfies Preset.ThemeConfig,
+  clientModules: [require.resolve('./src/clientModules/routeModules.ts')]
 };
 
 export default config;
