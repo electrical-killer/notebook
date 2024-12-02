@@ -10,6 +10,17 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        defer: "true",
+        src: "https://cloud.umami.is/script.js",
+        "data-website-id": "d976bbc0-80fa-4e13-b7dc-343543d2437a",
+      },
+    },
+  ],
+  
   // Set the production url of your site here
   url: 'https://wiki.eksnotebook.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -116,11 +127,15 @@ const config: Config = {
           position: 'left',
           to: '/docs/subject_tools',
         },
-        // {
-        //   to: '/friends',
-        //   label: 'Friends',
-        //   position: 'right',
-        // },
+        {
+          label: 'About',
+          position: 'right',
+          items: [
+            { label: 'Friends', to: '/friends',},
+            { label: 'Me', to: '/me',},
+            { label: 'Website', to: '/website',},
+          ],
+        },
         {
           href: 'https://github.com/electrical-killer',
           label: 'GitHub',
@@ -142,50 +157,31 @@ const config: Config = {
               label: '博客',
               to: '/blog',
             },
-            // {
-            //   label: '导航',
-            //   to: '/website',
-            // },
+            {
+              label: '导航',
+              to: '/navigation',
+            },
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'E-mail',
+              href: 'mailto:1670210410@qq.com',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'WeChat',
+              href: 'https://img.eksnotebook.com/images/202411161854161.png',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Friends',
-            //   to: '/friends',
-            // },
-            // {
-            //   label: 'About Me',
-            //   to: '/about',
-            // },
             {
-              label: 'GitHub',
-              href: 'https://github.com/electrical-killer',
-            },
-            {
-              html: `
-                <a href="https://docusaurus.io" target="_blank" rel="noreferrer noopener">
-                  <img src="/img/buildwith.png" alt="build with docusaurus" width="120" height="50"/>
-                <a/>
-                `,
+              label: '访问统计',
+              to: 'https://cloud.umami.is/share/B14wXOsk9mZbLznR/eksnotebook.com',
             },
           ],
         },
