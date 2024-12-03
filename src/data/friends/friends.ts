@@ -20,13 +20,6 @@ const friendList: FriendItem[] = [
     url: 'https://kuizuo.cn',
     avatar: 'https://kuizuo.cn/img/logo.png',
     tags: ["全栈", "逆向", "AI"],
-  },
-  {
-    title: 'One',
-    description: '初闻不知曲中意，再听已是曲中人',
-    url: 'https://onedayxyy.cn/',
-    avatar: '',
-    tags: [""],
   }
 ];
 

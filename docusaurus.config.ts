@@ -164,7 +164,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Social',
           items: [
             {
               label: 'E-mail',
@@ -182,6 +182,10 @@ const config: Config = {
             {
               label: '访问统计',
               to: 'https://cloud.umami.is/share/B14wXOsk9mZbLznR/eksnotebook.com',
+            },
+            {
+              label: '站点监控',
+              to: '.',
             },
           ],
         },
