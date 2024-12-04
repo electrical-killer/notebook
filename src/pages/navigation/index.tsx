@@ -81,17 +81,17 @@ export default function Navigations() {
               <div className={styles.typingslider}>
                 {/* <p>Here's my favorites.</p>
                 <p>Feel free to browse through them.</p> */}
-                <p className="">
+                <h1 className="">
                   <RoughNotation
                     type="underline"
                     show={true}
                     color="purple"
-                    strokeWidth={3}
+                    strokeWidth={4}
                     animationDelay={2000}
                   >
-                    <h1>整理日常开发，一些优质的网站链接</h1>
+                    整理日常开发，一些优质的网站链接
                   </RoughNotation>
-                </p>
+                </h1>
               </div>
               <CategoryList />
               <BackToTopButton />
