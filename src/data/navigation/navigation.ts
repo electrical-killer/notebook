@@ -14,7 +14,7 @@ export interface NavigationCategory {
 
 export const navigationData: NavigationCategory[] = [
   {
-    name: '🔗导航栏',
+    name: 'Navigation',
     navigations:[],
   },
   {
@@ -22,7 +22,7 @@ export const navigationData: NavigationCategory[] = [
     navigations:[],
   },
   {
-    name: '优质网站',
+    name: 'TopSite',
     navigations:[
       {
         name: 'Fomalhaut🥝',
@@ -33,7 +33,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: '建站工具',
+    name: 'WebTools',
     navigations:[
       {
         name: 'NGINX 配置',
@@ -62,7 +62,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: '建站文字',
+    name: 'Word',
     navigations:[
       {
         name: 'namae',
@@ -97,7 +97,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: '建站图源',
+    name: 'Img',
     navigations:[
       {
         name: 'Fontwesome',
@@ -132,7 +132,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: 'web学习',
+    name: 'WebStudy',
     navigations:[
       {
         name: "Developer Roadmap",
@@ -179,7 +179,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: 'online dev',
+    name: 'OnlineDev',
     navigations:[
       {
         name: 'CodePen',
@@ -202,7 +202,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: 'React 生态',
+    name: 'ReactEcology',
     navigations: [
       {
         name: 'React',
@@ -255,7 +255,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: 'React组件库',
+    name: 'Component',
     navigations: [
       {
         name: 'Ant Design',
@@ -389,7 +389,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: '有点意思~',
+    name: 'Interesting',
     navigations:[
       {
         name: 'removebg',
