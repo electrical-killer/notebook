@@ -132,8 +132,8 @@ const config: Config = {
           position: 'right',
           items: [
             { label: 'Friends', to: '/friends',},
-            { label: 'Me', to: '/me',},
-            { label: 'Website', to: '/website',},
+            // { label: 'Me', to: '/me',},
+            // { label: 'Website', to: '/website',},
           ],
         },
         {

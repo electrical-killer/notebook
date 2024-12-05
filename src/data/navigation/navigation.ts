@@ -47,11 +47,29 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://www.bootcdn.cn/assets/ico/favicon.ico',
         href: 'https://www.bootcdn.cn/',
       },
+      {
+        name: 'JS delivr',
+        desc: '一个免费的CDN开源项目',
+        logo: 'https://www.jsdelivr.com/favicon.ico',
+        href: 'https://www.jsdelivr.com/',
+      },
+      {
+        name: 'Can I use',
+        desc: '对浏览器支持的 API 兼容性查询',
+        logo: 'https://caniuse.com/img/favicon-128.png',
+        href: 'https://caniuse.com',
+      },
     ],
   },
   {
     name: '建站文字',
     navigations:[
+      {
+        name: 'namae',
+        desc: 'namae可让您给您的应用程序、Web服务或组织起一个好名字',
+        logo: 'https://namae.dev/favicon.ico',
+        href: 'https://namae.dev/',
+      },
       {
         name: '正则大全',
         desc: '🦕 常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台',
@@ -59,22 +77,22 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://any-rule.vercel.app/',
       },
       {
-        name: 'Hitokoto - 一言',
-        desc: '随机分享一句话',
-        logo: 'https://hitokoto.cn/favicon.ico',
-        href: 'https://hitokoto.cn/',
-      },
-      {
-        name: '一句',
-        desc: '汇聚有料文字',
-        logo: 'http://yijuzhan.com/favicon.ico',
-        href: 'http://yijuzhan.com/',
-      },
-      {
         name: '今日诗句',
         desc: '每次返回一句诗词',
         logo: 'https://www.jinrishici.com/img/icon-small.png',
         href: 'https://www.jinrishici.com/',
+      },
+      {
+        name: '谷歌字体',
+        desc: '各种各样的字体, 总有一个被你喜欢',
+        logo: 'https://googlefonts.cn/Public/fonts/zh-cn/gstatic/google_fonts_lodp.ico',
+        href: 'https://googlefonts.cn/',
+      },
+      {
+        name: 'Typing SVG',
+        desc: '一个动态生成的可自定义 SVG 打字效果',
+        logo: 'https://readme-typing-svg.herokuapp.com/demo/favicon.png',
+        href: 'https://readme-typing-svg.herokuapp.com/demo/',
       },
     ],
   },
@@ -94,24 +112,6 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://svgsilh.com/',
       },
       {
-        name: '那些免费的砖',
-        desc: '发现免费可商用的资源',
-        logo: 'https://img.thosefree.com/static/logo.png',
-        href: 'https://www.thosefree.com/',
-      },
-      {
-        name: 'Shields.io',
-        desc: '为你的开源项目生成高质量小徽章图标',
-        logo: 'https://shields.io/img/logo.png',
-        href: 'https://shields.io/',
-      },
-      {
-        name: 'Favicon.io',
-        desc: '可以生成带有调整的网站图标 SVG 代码、生成基于文本的网站图标或生成基于表情符号的网站图标',
-        logo: 'https://favicon.io/assets/static/favicon.b9532cc.ed88c65f76fa003989a0c683d668c765.png',
-        href: 'https://favicon.io/',
-      },
-      {
         name: 'feathericons',
         desc: '简单美丽的开源图标',
         logo: 'https://feathericons.com/favicon.ico',
@@ -124,40 +124,10 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://undraw.co/',
       },
       {
-        name: 'igoutu',
-        desc: '图标、插图、照片、音乐和设计工具',
-        logo: 'https://igoutu.cn/vue-static/landings/primary-landings/favs/icons8_fav_32%C3%9732.png',
-        href: 'https://igoutu.cn/',
-      },
-      {
-        name: 'Emojiall',
-        desc: 'Emoji表情大全',
-        logo: 'https://www.emojiall.com/apple-touch-icon.png',
-        href: 'https://www.emojiall.com/zh-hans',
-      },
-      {
-        name: '渐变色网站',
-        desc: '数百万个自动生成的渐变的网站',
-        logo: 'https://gradihunt.com/favicon.ico',
-        href: 'https://gradihunt.com/',
-      },
-      {
-        name: '谷歌字体',
-        desc: '一个生成渐变色背景的网站',
-        logo: 'https://googlefonts.cn/Public/fonts/zh-cn/gstatic/google_fonts_lodp.ico',
-        href: 'https://googlefonts.cn/',
-      },
-      {
-        name: 'Typing SVG',
-        desc: '一个动态生成的可自定义 SVG 打字效果',
-        logo: 'https://readme-typing-svg.herokuapp.com/demo/favicon.png',
-        href: 'https://readme-typing-svg.herokuapp.com/demo/',
-      },
-      {
-        name: 'DrawKit',
-        desc: '免费的矢量 SVG 插图，供您在下一个项目中使用，不需要署名',
-        logo: 'https://www.drawkit.io/favicon.ico',
-        href: 'https://www.drawkit.io/',
+        name: 'Terminal Gif Maker',
+        desc: '在线生成 Terminal GIF',
+        logo: 'https://www.terminalgif.com/favicon.ico',
+        href: 'https://www.terminalgif.com',
       },
     ],
   },
@@ -200,6 +170,12 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://www.w3schools.com/favicon.ico',
         href: 'https://www.w3schools.com/css',
       },
+      {
+        name: 'Quick Reference',
+        desc: '为开发人员分享快速参考备忘清单【速查表】',
+        logo: 'https://wangchujiang.com/reference/icons/favicon.svg',
+        href: 'https://jaywcjlove.github.io/reference',
+      },
     ],
   },
   {
@@ -226,6 +202,100 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
+    name: 'React 生态',
+    navigations: [
+      {
+        name: 'React',
+        desc: '用于构建用户界面的 JavaScript 库',
+        logo: 'https://react.dev/favicon.ico',
+        href: 'hhttps://react.dev/',
+      },
+      {
+        name: 'Next.js',
+        desc: 'Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置',
+        logo: 'https://nextjs.org/static/favicon/favicon.ico',
+        href: 'https://nextjs.org/',
+      },
+      {
+        name: 'zustand',
+        desc: '一种小型、快速且可扩展的 Bearbones 状态管理解决方案，使用简化的通量原理。拥有基于钩子的舒适 API，不是样板文件或固执己见。',
+        logo: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
+        href: 'https://docs.pmnd.rs/zustand/',
+      },
+      {
+        name: 'react-use',
+        desc: '一个强大的 React Hooks 库',
+        logo: 'https://reactjs.org/favicon.ico',
+        href: 'https://github.com/streamich/react-use',
+      },
+      {
+        name: 'SWR',
+        desc: '用于数据请求的 React Hooks 库',
+        logo: 'https://swr.vercel.app/favicon/favicon.svg',
+        href: 'https://swr.vercel.app/',
+      },
+      {
+        name: 'TanStack Query',
+        desc: '适用于 TS/JS、React、Solid、Vue 和 Svelte 的强大异步状态管理',
+        logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
+        href: 'https://tanstack.com/query/latest/',
+      },
+      {
+        name: 'framer-motion',
+        desc: 'Framer Motion是一个用于React的开源动画库，提供简单易用的API来创建流畅、高性能的动画效果，使Web应用程序和界面变得更加生动和吸引人。',
+        logo: 'https://www.framer.com/images/favicons/favicon.png',
+        href: 'https://www.framer.com/motion',
+      },
+      {
+        name: 'UmiJS',
+        desc: '用 Umi 构建你的下一个应用，带给你简单而愉悦的 Web 开发体验',
+        logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
+        href: 'https://umijs.org',
+      },
+    ],
+  },
+  {
+    name: 'React组件库',
+    navigations: [
+      {
+        name: 'Ant Design',
+        desc: '一套企业级 UI设计语言和 React 组件库',
+        logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+        href: 'https://ant.design',
+      },
+      {
+        name: 'shadcn/ui',
+        desc: '设计精美的组件，您可以将其复制并粘贴到您的应用程序中。无障碍。可定制。开源。',
+        logo: 'https://ui.shadcn.com/favicon.ico',
+        href: 'https://ui.shadcn.com/',
+      },
+      {
+        name: 'TDesign',
+        desc: 'TDesign 是腾讯各业务团队在服务业务过程中沉淀的一套企业级设计体系',
+        logo: 'https://tdesign.tencent.com/favicon.ico',
+        href: 'https://tdesign.tencent.com/',
+      },
+      {
+        name: 'Arco Design',
+        desc: '字节跳动出品的企业级设计系统',
+        logo: 'https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico',
+        href: 'https://arco.design/',
+      },
+      {
+        name: 'Vuetify',
+        desc: 'Vuetify 是一个 Vue UI 库，包含手工制作的精美材料组件。不需要设计技能 - 创建令人惊叹的应用程序所需的一切都触手可及',
+        logo: 'https://vuetify.cn/favicon.ico',
+        href: 'https://vuetify.cn/',
+      },
+      {
+        name: 'MUI',
+        desc: '当下流行的 React UI 框架',
+        logo: 'https://mui.com/static/favicon.ico',
+        href: 'https://mui.com',
+      },
+    ],
+  },
+  {
     name: 'CSS',
     navigations:[
       {
@@ -247,24 +317,6 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://www.tailwindcss.cn',
       },
       {
-        name: 'UnoCSS',
-        desc: '即时按需原子 CSS 引擎',
-        logo: 'https://uno.antfu.me//favicon.svg',
-        href: 'https://uno.antfu.me/',
-      },
-      {
-        name: 'NES.css',
-        desc: '一个像素风格的CSS框架',
-        logo: 'https://nostalgic-css.github.io/NES.css/favicon.png',
-        href: 'https://nostalgic-css.github.io/NES.css/',
-      },
-      {
-        name: 'clay.css',
-        desc: 'claymorphism 泥陶态风格CSS',
-        logo: 'https://codeadrian.github.io/clay.css/apple-touch-icon.png',
-        href: 'https://codeadrian.github.io/clay.css/',
-      },
-      {
         name: 'loading.io',
         desc: 'Animation Made Easy',
         logo: 'https://loading.io/favicon.png',
@@ -275,42 +327,6 @@ export const navigationData: NavigationCategory[] = [
         desc: '我们赋予任何人创建、分享和使用用 CSS 和 HTML 制作的漂亮自定义元素的权力。',
         logo: 'https://uiverse.io/favicon-32x32.png',
         href: 'https://uiverse.io',
-      },,
-      {
-        name: 'HYPE4',
-        desc: '透明玻璃态生成器',
-        logo: 'https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png',
-        href: 'https://hype4.academy/tools/glassmorphism-generator',
-      },
-      {
-        name: 'wweb.dev',
-        desc: 'CSS 动画背景生成器',
-        logo: 'https://ik.imagekit.io/wwebdev/tr:w-180/logo-text_51kQarOOiD-.png',
-        href: 'https://wweb.dev/resources/animated-css-background-generator/',
-      },
-      {
-        name: 'smooth shadow',
-        desc: '快速轻松地实现基于 CSS 阴影的绝佳工具。您只需要指定一些阴影设置，代码就在您的路上。',
-        logo: 'https://shadows.brumm.af/favicon.svg',
-        href: 'https://shadows.brumm.af/',
-      },
-      {
-        name: 'FANCY-BORDER-RADIUS',
-        desc: '花式边界半径,有助于创建 CSS 花式边框。',
-        logo: 'https://9elements.github.io/fancy-border-radius/favicon-32x32.png',
-        href: 'https://9elements.github.io/fancy-border-radius/',
-      },
-      {
-        name: 'Coolors',
-        desc: '创建调色板',
-        logo: 'https://coolors.co/assets/img/ios_icon.png',
-        href: 'https://coolors.co/',
-      },
-      {
-        name: 'Get Waves',
-        desc: '选择一些设置后，应用程序会为您的波形设计创建正确的 CSS 代码',
-        logo: 'https://getwaves.io/favicon-32x32.png?v=f13a1a2e88a9720e746d5561039d3f5f',
-        href: 'https://getwaves.io/',
       },
       {
         name: 'CSS BUD',
@@ -392,12 +408,6 @@ export const navigationData: NavigationCategory[] = [
         desc: '移除已购音乐的加密保护',
         logo: 'https://demo.unlock-music.dev/favicon.ico',
         href: 'https://demo.unlock-music.dev/',
-      },
-      {
-        name: '迅捷PDF转换器',
-        desc: '在线电子书格式转换PDF',
-        logo: 'https://app.xunjiepdf.com/favicon.ico',
-        href: 'https://app.xunjiepdf.com/eb2pdf/?zhljj01/',
       },
       {
         name: 'DeepL 翻译',
