@@ -422,6 +422,12 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://octodex.github.com/',
       },
       {
+        name: 'robohash',
+        desc: '独特的图像',
+        logo: 'https://robohash.org/favicon.ico',
+        href: 'https://robohash.org/',
+      },
+      {
         name: 'Wallhaven',
         desc: '首推优质壁纸网站',
         logo: 'https://wallhaven.cc/favicon.ico',
@@ -432,6 +438,12 @@ export const navigationData: NavigationCategory[] = [
         desc: '在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,ico图标制作,字帖生成',
         logo: 'https://tool.lu/favicon.ico',
         href: 'https://tool.lu/',
+      },
+      {
+        name: '依奇',
+        desc: '在线超级转换工具',
+        logo: 'https://www.wdku.net/static/ico/favicon.ico',
+        href: 'https://www.wdku.net/',
       },
     ],
   },
