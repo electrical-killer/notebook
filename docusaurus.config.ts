@@ -8,7 +8,7 @@ import type { GiscusConfig } from './src/components/Discuss'
 const config: Config = {
   title: "ek's notebook",
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: './static/img/favicon.ico',
 
   headTags: [
     {
@@ -22,7 +22,7 @@ const config: Config = {
   ],
   
   // Set the production url of your site here
-  url: 'https://wiki.eksnotebook.com',
+  url: 'https://eksnotebook.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -86,7 +86,8 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: 'https://eksnotebook.com', label: 'Home', position: 'left'},
+        // {to: 'https://eksnotebook.com', label: 'Home', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           label: 'Baisc',
           position: 'left',
@@ -150,12 +151,12 @@ const config: Config = {
           title: 'Link',
           items: [
             {
-              label: '起始页',
-              to: 'https://eksnotebook.com',
+              label: '最美主页',
+              to: 'https://eksnotebook.com/page',
             },
             {
-              label: '博客',
-              to: '/blog',
+              label: '博客归档',
+              to: '/blog/archive',
             },
             {
               label: '导航',
@@ -190,15 +191,22 @@ const config: Config = {
           ],
         },
       ],
+      // copyright: `<p style="margin-bottom: 0;">
+      //               <a href="http://beian.miit.gov.cn/">
+      //                 蒙ICP备2024020206号
+      //               </a>
+      //             </p>
+      //             <p style="display: inline-flex; align-items: center;">
+      //               <img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/>
+      //               <a href="https://beian.mps.gov.cn/#/query/webSearch" >
+      //                 ...
+      //               </a>
+      //             </p>
+      //             <p>Copyright © ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.</p>
+      //             <p>Great things are done by a series of small things brought together. -- Vincent Van Gogh</p>`,
       copyright: `<p style="margin-bottom: 0;">
                     <a href="http://beian.miit.gov.cn/">
                       蒙ICP备2024020206号
-                    </a>
-                  </p>
-                  <p style="display: inline-flex; align-items: center;">
-                    <img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/>
-                    <a href="https://beian.mps.gov.cn/#/query/webSearch" >
-                      ...
                     </a>
                   </p>
                   <p>Copyright © ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.</p>
