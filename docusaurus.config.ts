@@ -152,7 +152,7 @@ const config: Config = {
           items: [
             {
               label: '最美主页',
-              to: 'https://eksnotebook.com/page',
+              to: 'https://page.eksnotebook.com',
             },
             {
               label: '博客归档',
