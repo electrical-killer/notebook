@@ -59,6 +59,12 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://caniuse.com/img/favicon-128.png',
         href: 'https://caniuse.com',
       },
+      {
+        name: 'wordpress',
+        desc: '计划用作笔记的博客系统',
+        logo: 'https://s.w.org/favicon.ico?2',
+        href: 'https://wordpress.org/',
+      },
     ],
   },
   {

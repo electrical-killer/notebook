@@ -75,6 +75,8 @@ const config: Config = {
     ],
   ],
 
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg', //! 注意替换
@@ -138,6 +140,11 @@ const config: Config = {
           ],
         },
         {
+          label: 'Navigation',
+          position: 'right',
+          to: '/navigation',
+        },
+        {
           href: 'https://github.com/electrical-killer',
           label: 'GitHub',
           position: 'right',
@@ -157,10 +164,6 @@ const config: Config = {
             {
               label: '博客归档',
               to: '/blog/archive',
-            },
-            {
-              label: '导航',
-              to: '/navigation',
             },
           ],
         },
@@ -225,7 +228,17 @@ const config: Config = {
       theme: 'light',
       darkTheme: 'dark_dimmed',
     } satisfies Partial<GiscusConfig>,
-    //
+    // 图片放大插件
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        margin:0,
+        background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+        }
+      }
+    },
   } satisfies Preset.ThemeConfig,
   clientModules: [require.resolve('./src/clientModules/routeModules.ts')]
 };
