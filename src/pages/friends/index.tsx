@@ -17,7 +17,7 @@ export default function Friends() {
         <div className="row">
           <div className="col col--9 col--offset-1">
             <h1 className="hero__title  padding-top--lg">友链 🔗</h1>
-            <p className="hero__subtitle">在家靠父母, 在外靠朋友!🤝</p>
+            <p className="hero__subtitle">致谢每一位帮助过我的朋友 🤝</p>
             <p className="">
               <RoughNotation
                 type="underline"
@@ -26,7 +26,7 @@ export default function Friends() {
                 strokeWidth={3}
                 animationDelay={2500}
               >
-                请通过评论留下你的网站
+                在评论区告诉我你的网站, 我将会添加到友链, 互相关注, 一起加油💪
               </RoughNotation>
             </p>
             <button className="button button--secondary" onClick={onAddClick}>
