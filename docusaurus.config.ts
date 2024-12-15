@@ -86,6 +86,12 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
+        style: {
+          /* 全局img居中后, logo样式单独处理 */
+          margin: '0', 
+          textAlign: 'left', // 添加文本对齐样式
+          float: 'left', // 添加浮动样式
+        },
       },
       items: [
         // {to: 'https://eksnotebook.com', label: 'Home', position: 'left'},

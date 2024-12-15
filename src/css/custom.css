@@ -13,6 +13,13 @@
   @tailwind screens;
 }
 
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* 上下为 0, 左右自动分配 */
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;

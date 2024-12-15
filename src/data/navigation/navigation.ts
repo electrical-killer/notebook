@@ -457,6 +457,12 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://www.wdku.net/static/ico/favicon.ico',
         href: 'https://www.wdku.net/',
       },
+      {
+        name: '菜鸟工具',
+        desc: '不至于工具',
+        logo: 'https://static.jyshare.com/images/c-runoob-logo.ico',
+        href: 'https://www.jyshare.com/',
+      },
     ],
   },
   // {
