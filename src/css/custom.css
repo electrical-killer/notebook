@@ -13,7 +13,7 @@
   @tailwind screens;
 }
 
-img {
+.docs-img {
   max-width: 50%;
   height: auto;
   display: block;

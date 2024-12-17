@@ -23,10 +23,17 @@ const friendList: FriendItem[] = [
   },
   {
     title: '愧怍',
-    description: '道阻且长，行则将至',
+    description: '记录所学知识，领略编程之美',
     url: 'https://kuizuo.cn',
     avatar: 'https://kuizuo.cn/img/logo.png',
     tags: ["全栈开发", "AI", "逆向"],
+  },
+  {
+    title: 'Alan',
+    avatar: 'https://avatars.githubusercontent.com/u/49978973?v=4',
+    url: 'https://www.alanwang.site/',
+    description: '此刻想举重若轻，之前必要负重前行',
+    tags: ['前端开发']
   },
 ];
 
