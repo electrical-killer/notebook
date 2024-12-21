@@ -47,6 +47,30 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://www.digitalocean.com/_next/static/media/apple-touch-icon.d7edaa01.png',
         href: 'https://www.digitalocean.com/community/tools/nginx',
       },
+      {
+        name: 'framer',
+        desc: '基于PS原型设计图的低代码博客设计',
+        logo: 'https://framerusercontent.com/images/p0xWJXje0Ix6GxLa9iOrfxr7g.svg',
+        href: 'https://www.framer.com/',
+      },
+      {
+        name: 'Webflow',
+        desc: '优质的无代码建站工具',
+        logo: 'https://cdn.prod.website-files.com/64f794cdbc8227dafd183278/64f8a6d532452784f72a75d1_favicon.png',
+        href: 'https://webflow.com/',
+      },
+      {
+        name: 'V0',
+        desc: '可生成前端组件的AI工具',
+        logo: 'https://v0.dev/assets/icon.svg',
+        href: 'https://v0.dev/',
+      },
+      {
+        name: 'Cursor',
+        desc: '助力Al编程',
+        logo: 'https://www.cursor.com/favicon.ico',
+        href: 'https://www.cursor.com/',
+      },
       // {
       //   name: 'BootCDN',
       //   desc: '稳定、快速、免费的前端开源项目 CDN 加速服务',
@@ -76,30 +100,30 @@ export const navigationData: NavigationCategory[] = [
   {
     name: 'Word',
     navigations:[
-      {
-        name: 'namae',
-        desc: 'namae可让您给您的应用程序、Web服务或组织起一个好名字',
-        logo: 'https://namae.dev/favicon.ico',
-        href: 'https://namae.dev/',
-      },
-      {
-        name: '正则大全',
-        desc: '🦕 常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台',
-        logo: 'https://any-rule.vercel.app/favicon.ico',
-        href: 'https://any-rule.vercel.app/',
-      },
-      {
-        name: '今日诗句',
-        desc: '每次返回一句诗词',
-        logo: 'https://www.jinrishici.com/img/icon-small.png',
-        href: 'https://www.jinrishici.com/',
-      },
-      {
-        name: '谷歌字体',
-        desc: '各种各样的字体, 总有一个被你喜欢',
-        logo: 'https://googlefonts.cn/Public/fonts/zh-cn/gstatic/google_fonts_lodp.ico',
-        href: 'https://googlefonts.cn/',
-      },
+      // {
+      //   name: 'namae',
+      //   desc: 'namae可让您给您的应用程序、Web服务或组织起一个好名字',
+      //   logo: 'https://namae.dev/favicon.ico',
+      //   href: 'https://namae.dev/',
+      // },
+      // {
+      //   name: '正则大全',
+      //   desc: '🦕 常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台',
+      //   logo: 'https://any-rule.vercel.app/favicon.ico',
+      //   href: 'https://any-rule.vercel.app/',
+      // },
+      // {
+      //   name: '今日诗句',
+      //   desc: '每次返回一句诗词',
+      //   logo: 'https://www.jinrishici.com/img/icon-small.png',
+      //   href: 'https://www.jinrishici.com/',
+      // },
+      // {
+      //   name: '谷歌字体',
+      //   desc: '各种各样的字体, 总有一个被你喜欢',
+      //   logo: 'https://googlefonts.cn/Public/fonts/zh-cn/gstatic/google_fonts_lodp.ico',
+      //   href: 'https://googlefonts.cn/',
+      // },
       {
         name: 'Typing SVG',
         desc: '一个动态生成的可自定义 SVG 打字效果',
@@ -109,7 +133,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: 'Img',
+    name: 'Picture',
     navigations:[
       {
         name: 'Fontwesome',
@@ -122,6 +146,30 @@ export const navigationData: NavigationCategory[] = [
         desc: '优质的小型svg格式插图',
         logo: 'https://svgsilh.com/favicon.ico',
         href: 'https://svgsilh.com/',
+      },
+      {
+        name: 'Octodex',
+        desc: '你还在苦恼用什么头像合适吗?',
+        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        href: 'https://octodex.github.com/',
+      },
+      {
+        name: 'robohash',
+        desc: '独特的图像',
+        logo: 'https://robohash.org/favicon.ico',
+        href: 'https://robohash.org/',
+      },
+      {
+        name: 'Wallhaven',
+        desc: '首推优质壁纸网站',
+        logo: 'https://wallhaven.cc/favicon.ico',
+        href: 'https://wallhaven.cc/',
+      },
+      {
+        name: 'pinterest',
+        desc: '给出灵感的图片',
+        logo: 'https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png',
+        href: 'https://www.pinterest.com/',
       },
       // {
       //   name: 'feathericons',
@@ -141,6 +189,46 @@ export const navigationData: NavigationCategory[] = [
       //   logo: 'https://www.terminalgif.com/favicon.ico',
       //   href: 'https://www.terminalgif.com',
       // },
+    ],
+  },
+  {
+    name: '3D',
+    navigations:[
+      {
+        name: "Awwwards",
+        desc: "优质的3D网页设计平台",
+        logo: "https://assets.awwwards.com/assets/images/favicon.svg",
+        href: "https://www.awwwards.com/",
+      },
+      {
+        name: "React Three Fiber",
+        desc: "ThreeJS的React渲染库",
+        logo: "",
+        href: "https://github.com/pmndrs/react-three-fiber",
+      },
+    ],
+  },
+  {
+    name: 'UI',
+    navigations:[
+      {
+        name: "Aceternity",
+        desc: "视觉冲击力十足的组件库",
+        logo: "https://ui.aceternity.com/favicon.ico",
+        href: "https://ui.aceternity.com/",
+      },
+      {
+        name: "Magic",
+        desc: "免费开源动画组件",
+        logo: "https://magicui.design/icon.png",
+        href: "https://magicui.design/",
+      },
+      {
+        name: "Cult",
+        desc: "React的即用型组件库",
+        logo: "https://www.cult-ui.com/favicon.ico",
+        href: "https://www.cult-ui.com/",
+      },
     ],
   },
   // {
@@ -349,19 +437,13 @@ export const navigationData: NavigationCategory[] = [
   //   ],
   // },
   {
-    name: 'IoT',
+    name: 'Handbook',
     navigations:[
       {
         name: 'CMake 中文文档',
         desc: '热心网友根据官方教程翻译的文档',
         logo: 'https://sfumecjf.github.io/favicon.ico',
         href: 'https://sfumecjf.github.io/cmake-examples-Chinese/',
-      },
-      {
-        name: '深入浅出讲解LoRa通信技术',
-        desc: '甘泉老师结合自身经验, 详细的讲解了LoRa相关技术',
-        logo: 'https://assets.eefcdn.com/app/themes/eefocus/dist/images/favicon.ico',
-        href: 'https://www.moore8.com/courses/3028',
       },
       {
         name: '半导小芯',
@@ -380,24 +462,24 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://gitstar-ranking.com/favicon.ico',
         href: 'https://gitstar-ranking.com/',
       },
-      {
-        name: 'Metrics',
-        desc: 'Create your own metrics',
-        logo: 'https://metrics.lecoq.io/.favicon.png',
-        href: 'https://metrics.lecoq.io/',
-      },
+      // {
+      //   name: 'Metrics',
+      //   desc: 'Create your own metrics',
+      //   logo: 'https://metrics.lecoq.io/.favicon.png',
+      //   href: 'https://metrics.lecoq.io/',
+      // },
       {
         name: 'Github主页 README 生成器',
         desc: '一个Github 个人主页 README 生成器',
         logo: 'https://rahuldkjain.github.io/gh-profile-readme-generator/icons/icon-144x144.png?v=040f54e2f6c858e0a3dcf568c3f2b6f1',
         href: 'https://rahuldkjain.github.io/gh-profile-readme-generator/',
       },
-      {
-        name: 'Github 统计生成器',
-        desc: 'Github 在你的 README 中获取动态生成的 GitHub 统计信息！',
-        logo: '',
-        href: 'https://github.com/anuraghazra/github-readme-stats',
-      },
+      // {
+      //   name: 'Github 统计生成器',
+      //   desc: 'Github 在你的 README 中获取动态生成的 GitHub 统计信息！',
+      //   logo: '',
+      //   href: 'https://github.com/anuraghazra/github-readme-stats',
+      // },
     ],
   },
   {
@@ -427,24 +509,6 @@ export const navigationData: NavigationCategory[] = [
       //   logo: 'https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg',
       //   href: 'https://www.deepl.com/translator/',
       // },
-      {
-        name: 'Octodex',
-        desc: '你还在苦恼用什么头像合适吗?',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
-        href: 'https://octodex.github.com/',
-      },
-      {
-        name: 'robohash',
-        desc: '独特的图像',
-        logo: 'https://robohash.org/favicon.ico',
-        href: 'https://robohash.org/',
-      },
-      {
-        name: 'Wallhaven',
-        desc: '首推优质壁纸网站',
-        logo: 'https://wallhaven.cc/favicon.ico',
-        href: 'https://wallhaven.cc/',
-      },
       {
         name: '在线工具箱',
         desc: '在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,ico图标制作,字帖生成',
