@@ -82,6 +82,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg', //! 注意替换
     navbar: {
       title: 'NoteBook',
+      style: 'dark',
       hideOnScroll: true, // 自动隐藏导航栏
       logo: {
         alt: 'My Site Logo',
