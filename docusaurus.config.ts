@@ -80,6 +80,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg', //! 注意替换
+    /* 默认主题色 */
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+    },
     navbar: {
       title: 'NoteBook',
       style: 'dark',

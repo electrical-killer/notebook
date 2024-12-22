@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 import styles from './styles.module.css';
 
+// 用于合并和处理 CSS 类名, 通过其参数可以动态生成背景样式
 function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
   }
@@ -51,8 +52,8 @@ export const AuroraBackground = ({
 
 export default function HomepageFeatures(): JSX.Element {
   return (
-    <div >
-      <AuroraBackground className={styles.tailwind}>
+    <div className="tailwind">
+      <AuroraBackground className={styles.features}>
         <motion.div
             initial={{ opacity: 0.3, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}

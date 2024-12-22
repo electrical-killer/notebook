@@ -36,6 +36,24 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://spacexcode.com/img/favicon.ico',
         href: 'https://spacexcode.com/',
       },
+      {
+        name: 'OpenLinker',
+        desc: '专注物联网与人工智能',
+        logo: 'https://open-linker2.vercel.app/img/favicon.ico',
+        href: 'https://open-linker2.vercel.app/',
+      },
+      {
+        name: '朝八晚八',
+        desc: '一个懂生活的行政人员',
+        logo: 'https://from8to8.com/img/favicon.ico',
+        href: 'https://from8to8.com/',
+      },
+      {
+        name: '大扑棱蛾子',
+        desc: '高级软件架构师',
+        logo: 'https://jdocs.wiki/img/favicon2.png',
+        href: 'https://jdocs.wiki/',
+      },
     ],
   },
   {
@@ -301,59 +319,59 @@ export const navigationData: NavigationCategory[] = [
   //     },
   //   ],
   // },
-  // {
-  //   name: 'ReactEcology',
-  //   navigations: [
-  //     {
-  //       name: 'React',
-  //       desc: '用于构建用户界面的 JavaScript 库',
-  //       logo: 'https://react.dev/favicon.ico',
-  //       href: 'hhttps://react.dev/',
-  //     },
-  //     {
-  //       name: 'Next.js',
-  //       desc: 'Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置',
-  //       logo: 'https://nextjs.org/static/favicon/favicon.ico',
-  //       href: 'https://nextjs.org/',
-  //     },
-  //     {
-  //       name: 'zustand',
-  //       desc: '一种小型、快速且可扩展的 Bearbones 状态管理解决方案，使用简化的通量原理。拥有基于钩子的舒适 API，不是样板文件或固执己见。',
-  //       logo: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
-  //       href: 'https://docs.pmnd.rs/zustand/',
-  //     },
-  //     {
-  //       name: 'react-use',
-  //       desc: '一个强大的 React Hooks 库',
-  //       logo: 'https://reactjs.org/favicon.ico',
-  //       href: 'https://github.com/streamich/react-use',
-  //     },
-  //     {
-  //       name: 'SWR',
-  //       desc: '用于数据请求的 React Hooks 库',
-  //       logo: 'https://swr.vercel.app/favicon/favicon.svg',
-  //       href: 'https://swr.vercel.app/',
-  //     },
-  //     {
-  //       name: 'TanStack Query',
-  //       desc: '适用于 TS/JS、React、Solid、Vue 和 Svelte 的强大异步状态管理',
-  //       logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
-  //       href: 'https://tanstack.com/query/latest/',
-  //     },
-  //     {
-  //       name: 'framer-motion',
-  //       desc: 'Framer Motion是一个用于React的开源动画库，提供简单易用的API来创建流畅、高性能的动画效果，使Web应用程序和界面变得更加生动和吸引人。',
-  //       logo: 'https://www.framer.com/images/favicons/favicon.png',
-  //       href: 'https://www.framer.com/motion',
-  //     },
-  //     {
-  //       name: 'UmiJS',
-  //       desc: '用 Umi 构建你的下一个应用，带给你简单而愉悦的 Web 开发体验',
-  //       logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
-  //       href: 'https://umijs.org',
-  //     },
-  //   ],
-  // },
+  {
+    name: 'ReactEcology',
+    navigations: [
+      {
+        name: 'React',
+        desc: '用于构建用户界面的 JavaScript 库',
+        logo: 'https://react.dev/favicon.ico',
+        href: 'hhttps://react.dev/',
+      },
+      // {
+      //   name: 'Next.js',
+      //   desc: 'Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置',
+      //   logo: 'https://nextjs.org/static/favicon/favicon.ico',
+      //   href: 'https://nextjs.org/',
+      // },
+      // {
+      //   name: 'zustand',
+      //   desc: '一种小型、快速且可扩展的 Bearbones 状态管理解决方案，使用简化的通量原理。拥有基于钩子的舒适 API，不是样板文件或固执己见。',
+      //   logo: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
+      //   href: 'https://docs.pmnd.rs/zustand/',
+      // },
+      // {
+      //   name: 'react-use',
+      //   desc: '一个强大的 React Hooks 库',
+      //   logo: 'https://reactjs.org/favicon.ico',
+      //   href: 'https://github.com/streamich/react-use',
+      // },
+      // {
+      //   name: 'SWR',
+      //   desc: '用于数据请求的 React Hooks 库',
+      //   logo: 'https://swr.vercel.app/favicon/favicon.svg',
+      //   href: 'https://swr.vercel.app/',
+      // },
+      // {
+      //   name: 'TanStack Query',
+      //   desc: '适用于 TS/JS、React、Solid、Vue 和 Svelte 的强大异步状态管理',
+      //   logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
+      //   href: 'https://tanstack.com/query/latest/',
+      // },
+      {
+        name: 'Framer Motion',
+        desc: '一个用于React的开源动画库，提供简单易用的API来创建流畅、高性能的动画效果，使Web应用程序和界面变得更加生动和吸引人。',
+        logo: 'https://www.framer.com/images/favicons/favicon.png',
+        href: 'https://www.framer.com/motion',
+      },
+      // {
+      //   name: 'UmiJS',
+      //   desc: '用 Umi 构建你的下一个应用，带给你简单而愉悦的 Web 开发体验',
+      //   logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
+      //   href: 'https://umijs.org',
+      // },
+    ],
+  },
   // {
   //   name: 'Component',
   //   navigations: [
