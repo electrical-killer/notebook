@@ -71,6 +71,10 @@ module.exports = {
     addVariablesForColors,
     require("tailwindcss-animate"),
   ],
+  corePlugins: {
+    preflight: false, // 禁用 Tailwind 的基础样式重置
+  },
+  // important: '#tailwind-wrapper', // 增加所有 Tailwind 类的优先级
 }
 
 function addVariablesForColors({ addBase, theme }: any) {
