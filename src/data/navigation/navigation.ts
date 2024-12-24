@@ -54,6 +54,18 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://jdocs.wiki/img/favicon2.png',
         href: 'https://jdocs.wiki/',
       },
+      {
+        name: 'INDIE TOOLS',
+        desc: '独立开发者出海工具收集站',
+        logo: 'https://www.indietools.work/favicon.svg',
+        href: 'https://www.indietools.work/',
+      },
+      {
+        name: '少数派',
+        desc: '高效工作, 品质生活',
+        logo: 'https://cdn-static.sspai.com/favicon/sspai.ico',
+        href: 'https://sspai.com/',
+      },
     ],
   },
   {
@@ -527,6 +539,18 @@ export const navigationData: NavigationCategory[] = [
       //   logo: 'https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg',
       //   href: 'https://www.deepl.com/translator/',
       // },
+      {
+        name: 'Qwerty Learner',
+        desc: '英文单词记忆与输入的肌肉记忆练习, 有vscode插件版呦~',
+        logo: 'https://qwerty.kaiyi.cool/favicon.ico',
+        href: 'https://qwerty.kaiyi.cool/',
+      },
+      {
+        name: 'Typelit',
+        desc: '可以边看古典小说边练习打字速度',
+        logo: 'https://www.typelit.io/favicon.ico',
+        href: 'https://www.typelit.io/',
+      },
       {
         name: '在线工具箱',
         desc: '在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,ico图标制作,字帖生成',
