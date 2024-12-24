@@ -75,13 +75,32 @@ const config: Config = {
     ],
   ],
 
-  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+  plugins: [
+    ["docusaurus-plugin-image-zoom", {}],
+    // async function myPlugin(context, options) {
+    //   return {
+    //     name: 'docusaurus-tailwindcss',
+    //     configurePostCss(postcssOptions) {
+    //       // Appends TailwindCSS and AutoPrefixer.
+    //       postcssOptions.plugins.push(require('tailwindcss'));
+    //       postcssOptions.plugins.push(require('autoprefixer'));
+    //       return postcssOptions;
+    //     },
+    //   };
+    // },
+  ],
 
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg', //! 注意替换
+    /* 默认主题色 */
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+    },
     navbar: {
       title: 'NoteBook',
+      style: 'dark',
       hideOnScroll: true, // 自动隐藏导航栏
       logo: {
         alt: 'My Site Logo',

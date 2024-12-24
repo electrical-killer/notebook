@@ -6,11 +6,13 @@
 
 /* You can override the default Infima variables here. */
 
+/* Wrap all Tailwind styles in a class */
+@tailwind screens;
+@tailwind base;
+
 .tailwind {
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  @tailwind screens;
+  @tailwind components !important;
+  @tailwind utilities; 
 }
 
 .docs-img {

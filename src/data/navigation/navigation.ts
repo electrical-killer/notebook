@@ -36,6 +36,36 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://spacexcode.com/img/favicon.ico',
         href: 'https://spacexcode.com/',
       },
+      {
+        name: 'OpenLinker',
+        desc: '专注物联网与人工智能',
+        logo: 'https://open-linker2.vercel.app/img/favicon.ico',
+        href: 'https://open-linker2.vercel.app/',
+      },
+      {
+        name: '朝八晚八',
+        desc: '一个懂生活的行政人员',
+        logo: 'https://from8to8.com/img/favicon.ico',
+        href: 'https://from8to8.com/',
+      },
+      {
+        name: '大扑棱蛾子',
+        desc: '高级软件架构师',
+        logo: 'https://jdocs.wiki/img/favicon2.png',
+        href: 'https://jdocs.wiki/',
+      },
+      {
+        name: 'INDIE TOOLS',
+        desc: '独立开发者出海工具收集站',
+        logo: 'https://www.indietools.work/favicon.svg',
+        href: 'https://www.indietools.work/',
+      },
+      {
+        name: '少数派',
+        desc: '高效工作, 品质生活',
+        logo: 'https://cdn-static.sspai.com/favicon/sspai.ico',
+        href: 'https://sspai.com/',
+      },
     ],
   },
   {
@@ -301,59 +331,59 @@ export const navigationData: NavigationCategory[] = [
   //     },
   //   ],
   // },
-  // {
-  //   name: 'ReactEcology',
-  //   navigations: [
-  //     {
-  //       name: 'React',
-  //       desc: '用于构建用户界面的 JavaScript 库',
-  //       logo: 'https://react.dev/favicon.ico',
-  //       href: 'hhttps://react.dev/',
-  //     },
-  //     {
-  //       name: 'Next.js',
-  //       desc: 'Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置',
-  //       logo: 'https://nextjs.org/static/favicon/favicon.ico',
-  //       href: 'https://nextjs.org/',
-  //     },
-  //     {
-  //       name: 'zustand',
-  //       desc: '一种小型、快速且可扩展的 Bearbones 状态管理解决方案，使用简化的通量原理。拥有基于钩子的舒适 API，不是样板文件或固执己见。',
-  //       logo: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
-  //       href: 'https://docs.pmnd.rs/zustand/',
-  //     },
-  //     {
-  //       name: 'react-use',
-  //       desc: '一个强大的 React Hooks 库',
-  //       logo: 'https://reactjs.org/favicon.ico',
-  //       href: 'https://github.com/streamich/react-use',
-  //     },
-  //     {
-  //       name: 'SWR',
-  //       desc: '用于数据请求的 React Hooks 库',
-  //       logo: 'https://swr.vercel.app/favicon/favicon.svg',
-  //       href: 'https://swr.vercel.app/',
-  //     },
-  //     {
-  //       name: 'TanStack Query',
-  //       desc: '适用于 TS/JS、React、Solid、Vue 和 Svelte 的强大异步状态管理',
-  //       logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
-  //       href: 'https://tanstack.com/query/latest/',
-  //     },
-  //     {
-  //       name: 'framer-motion',
-  //       desc: 'Framer Motion是一个用于React的开源动画库，提供简单易用的API来创建流畅、高性能的动画效果，使Web应用程序和界面变得更加生动和吸引人。',
-  //       logo: 'https://www.framer.com/images/favicons/favicon.png',
-  //       href: 'https://www.framer.com/motion',
-  //     },
-  //     {
-  //       name: 'UmiJS',
-  //       desc: '用 Umi 构建你的下一个应用，带给你简单而愉悦的 Web 开发体验',
-  //       logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
-  //       href: 'https://umijs.org',
-  //     },
-  //   ],
-  // },
+  {
+    name: 'ReactEcology',
+    navigations: [
+      {
+        name: 'React',
+        desc: '用于构建用户界面的 JavaScript 库',
+        logo: 'https://react.dev/favicon.ico',
+        href: 'hhttps://react.dev/',
+      },
+      // {
+      //   name: 'Next.js',
+      //   desc: 'Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置',
+      //   logo: 'https://nextjs.org/static/favicon/favicon.ico',
+      //   href: 'https://nextjs.org/',
+      // },
+      // {
+      //   name: 'zustand',
+      //   desc: '一种小型、快速且可扩展的 Bearbones 状态管理解决方案，使用简化的通量原理。拥有基于钩子的舒适 API，不是样板文件或固执己见。',
+      //   logo: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
+      //   href: 'https://docs.pmnd.rs/zustand/',
+      // },
+      // {
+      //   name: 'react-use',
+      //   desc: '一个强大的 React Hooks 库',
+      //   logo: 'https://reactjs.org/favicon.ico',
+      //   href: 'https://github.com/streamich/react-use',
+      // },
+      // {
+      //   name: 'SWR',
+      //   desc: '用于数据请求的 React Hooks 库',
+      //   logo: 'https://swr.vercel.app/favicon/favicon.svg',
+      //   href: 'https://swr.vercel.app/',
+      // },
+      // {
+      //   name: 'TanStack Query',
+      //   desc: '适用于 TS/JS、React、Solid、Vue 和 Svelte 的强大异步状态管理',
+      //   logo: 'https://tanstack.com/favicons/apple-touch-icon.png',
+      //   href: 'https://tanstack.com/query/latest/',
+      // },
+      {
+        name: 'Framer Motion',
+        desc: '一个用于React的开源动画库，提供简单易用的API来创建流畅、高性能的动画效果，使Web应用程序和界面变得更加生动和吸引人。',
+        logo: 'https://www.framer.com/images/favicons/favicon.png',
+        href: 'https://www.framer.com/motion',
+      },
+      // {
+      //   name: 'UmiJS',
+      //   desc: '用 Umi 构建你的下一个应用，带给你简单而愉悦的 Web 开发体验',
+      //   logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
+      //   href: 'https://umijs.org',
+      // },
+    ],
+  },
   // {
   //   name: 'Component',
   //   navigations: [
@@ -395,10 +425,10 @@ export const navigationData: NavigationCategory[] = [
   //     },
   //   ],
   // },
-  // {
-  //   name: 'CSS',
-  //   navigations:[
-  //     {
+  {
+    name: 'CSS',
+    navigations:[
+  //    {
   //       name: 'Bootstrap',
   //       desc: 'Bootstrap 是全球最受欢迎的前端开源工具库，它支持 Sass 变量和 mixin、响应式栅格系统、自带大量组件和众多强大的 JavaScript 插件。基于 Bootstrap 提供的强大功能，能够让你快速设计并定制你的网站',
   //       logo: 'https://img.kuizuo.cn/20210907055816.png',
@@ -410,12 +440,12 @@ export const navigationData: NavigationCategory[] = [
   //       logo: 'https://tse1-mm.cn.bing.net/th?id=OIP-C.EgSPriuEnAtlIWJV8R_E1QHaGs&w=107&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
   //       href: 'https://github.com/QiShaoXuan/css_tricks',
   //     },
-  //     {
-  //       name: 'TailwindCSS',
-  //       desc: 'Tailwind CSS 是一个功能类优先的 CSS 框架，它集成了诸如 flex, pt-4, text-center 和 rotate-90 这样的的类，它们能直接在脚本标记语言中组合起来，构建出任何设计',
-  //       logo: 'https://www.tailwindcss.cn/favicon-32x32.png',
-  //       href: 'https://www.tailwindcss.cn',
-  //     },
+      {
+        name: 'TailwindCSS',
+        desc: 'Tailwind CSS 是一个功能类优先的 CSS 框架，它集成了诸如 flex, pt-4, text-center 和 rotate-90 这样的的类，它们能直接在脚本标记语言中组合起来，构建出任何设计',
+        logo: 'https://www.tailwindcss.cn/favicon-32x32.png',
+        href: 'https://www.tailwindcss.cn',
+      },
   //     {
   //       name: 'loading.io',
   //       desc: 'Animation Made Easy',
@@ -434,8 +464,8 @@ export const navigationData: NavigationCategory[] = [
   //       logo: 'https://cssbud.com/wp-content/uploads/2020/04/cssbud-logo.png',
   //       href: 'http://cssbud.com/',
   //     },
-  //   ],
-  // },
+    ],
+  },
   {
     name: 'Handbook',
     navigations:[
@@ -509,6 +539,18 @@ export const navigationData: NavigationCategory[] = [
       //   logo: 'https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg',
       //   href: 'https://www.deepl.com/translator/',
       // },
+      {
+        name: 'Qwerty Learner',
+        desc: '英文单词记忆与输入的肌肉记忆练习, 有vscode插件版呦~',
+        logo: 'https://qwerty.kaiyi.cool/favicon.ico',
+        href: 'https://qwerty.kaiyi.cool/',
+      },
+      {
+        name: 'Typelit',
+        desc: '可以边看古典小说边练习打字速度',
+        logo: 'https://www.typelit.io/favicon.ico',
+        href: 'https://www.typelit.io/',
+      },
       {
         name: '在线工具箱',
         desc: '在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,ico图标制作,字帖生成',
