@@ -124,7 +124,7 @@ const config: Config = {
           label: 'Subject',
           position: 'left',
           items: [
-            // { label: 'Embedded', to: '/docs/subject_embedded',},
+            { label: 'Embedded', to: '/docs/subject_embedded',},
             { label: 'Linux', to: '/docs/subject_linux',},
             // { label: 'Tcpip', to: '/docs/subject_tcpip',},
             { label: 'Web', to: '/docs/subject_web',},
@@ -133,10 +133,7 @@ const config: Config = {
         {
           label: 'Project',
           position: 'left',
-          items: [
-            { label: 'P-WEB', to: '/docs/project_web',},
-            // { label: 'P-IOT', to: '/docs/project_iot',},
-          ],
+          to: '/docs/project',
         },
         // {
         //   label: 'Other',
@@ -178,6 +175,10 @@ const config: Config = {
             {
               label: '博客归档',
               to: '/blog/archive',
+            },
+            {
+              label: '翻译计划',
+              to: '.',
             },
             {
               label: '导航',

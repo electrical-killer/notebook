@@ -78,6 +78,12 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://www.digitalocean.com/community/tools/nginx',
       },
       {
+        name: 'vuepress-theme-vdoing',
+        desc: '一款简洁高效的VuePress 知识管理&博客 主题',
+        logo: 'https://doc.xugaoyi.com/img/favicon.ico',
+        href: 'https://doc.xugaoyi.com',
+      },
+      {
         name: 'framer',
         desc: '基于PS原型设计图的低代码博客设计',
         logo: 'https://framerusercontent.com/images/p0xWJXje0Ix6GxLa9iOrfxr7g.svg',
