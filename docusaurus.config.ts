@@ -137,9 +137,9 @@ const config: Config = {
           ],
         },
         {
-          label: 'Project',
+          label: 'Project.Docx',
           position: 'left',
-          to: '/docs/project',
+          to: '/docs/project.docx',
         },
         // {
         //   label: 'Other',
