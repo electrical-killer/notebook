@@ -98,6 +98,12 @@ const config: Config = {
       defaultMode: 'dark',
       disableSwitch: true,
     },
+    docs: {
+      sidebar: {
+        hideable: true, // 允许隐藏整个侧边栏
+        autoCollapseCategories: true, // 展开一个类别时自动折叠其他类别
+      },
+    },
     navbar: {
       title: 'NoteBook',
       style: 'dark',

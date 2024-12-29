@@ -35,6 +35,13 @@ const friendList: FriendItem[] = [
     description: '此刻想举重若轻，之前必要负重前行',
     tags: ['前端开发']
   },
+  {
+    title: '狄云',
+    avatar: 'https://files.diyun.site/blog/2024/07/7fae6d19f5561324c078bebcfe19cbff.webp',
+    url: 'https://www.diyun.site',
+    description: '产品、技术相关，想到哪写到哪',
+    tags: ['产品']
+  },
 ];
 
 export default friendList;
