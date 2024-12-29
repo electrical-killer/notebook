@@ -77,6 +77,7 @@ const config: Config = {
 
   plugins: [
     ["docusaurus-plugin-image-zoom", {}],
+    ["@docusaurus/plugin-ideal-image", {}],
     // async function myPlugin(context, options) {
     //   return {
     //     name: 'docusaurus-tailwindcss',
@@ -185,6 +186,10 @@ const config: Config = {
             {
               label: '翻译计划',
               to: '.',
+            },
+            {
+              label: '项目展柜',
+              to: '/projects',
             },
             {
               label: '导航',
