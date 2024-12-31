@@ -97,7 +97,7 @@ const config: Config = {
     /* 默认主题色 */
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: true,
+      disableSwitch: false,
     },
     docs: {
       sidebar: {

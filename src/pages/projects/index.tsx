@@ -77,7 +77,8 @@ function ShowcaseCards() {
             return (
               <div key={key}>
                 <div className={cn('my-4', styles.showcaseFavoriteHeader)}>
-                  <h3>{upperFirst(lang === 'en' ? key : projectTypeMap[key])}</h3>
+                  <h3>{upperFirst(projectTypeMap[key])}</h3>
+                  {/* <h3>{upperFirst(lang === 'en' ? key : projectTypeMap[key])}</h3> */}
                 </div>
                 <MagicContainer className={styles.showcaseList}>
                   {value.map(project => (
