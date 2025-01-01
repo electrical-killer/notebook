@@ -80,10 +80,10 @@
 }
 
 .docs-img {
-  max-width: 50%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* 上下为 0, 左右自动分配 */
+  @apply max-w-[50%];
+  @apply h-auto;
+  @apply block;
+  @apply mx-auto;
 }
 
 a:hover {

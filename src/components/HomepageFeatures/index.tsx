@@ -22,18 +22,16 @@ export default function HomepageFeatures(): JSX.Element {
               Background lights are cool you know.
             </div> */}
 
-
-            <div className="relative">
-              <div className="mx-auto max-w-7xl lg:px-8">
-                {/* <BlogSection /> */}
+              {/* 首页项目展板 */}
+            {/* <div className="relative">
+              <div className="mx-auto max-w-7xl bg-background lg:px-8">
                 <ProjectSection />
-                {/* <FeaturesSection /> */}
               </div>
               <div
                 className="-z-50 absolute inset-0 bg-grid-slate-50 [mask-image:linear-gradient(0deg,#fff,rgba(255,255,255,0.3))] dark:bg-grid-slate-700/25 dark:[mask-image:linear-gradient(0deg,rgba(255,255,255,0.1),rgba(255,255,255,0.5))]"
                 style={{ backgroundPosition: '10px 10px;' }}
               />
-            </div>
+            </div> */}
 
 
           </motion.div>

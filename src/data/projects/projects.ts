@@ -17,60 +17,6 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
-  {
-    title: 'EK的笔记本',
-    description: '🦖 基于 Docusaurus 实现的个人小站',
-    preview: '/img/projects/my-blog.png',
-    website: 'https://eksnotebook.com',
-    source: 'https://github.com/electrical-killer/notebook',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'web',
-  },
-  {
-    title: 'EK的笔记本',
-    description: '🦖 基于 Docusaurus 实现的个人小站',
-    preview: '/img/projects/my-blog.png',
-    website: 'https://eksnotebook.com',
-    source: 'https://github.com/electrical-killer/notebook',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'other',
-  },
-  {
-    title: 'EK的笔记本',
-    description: '🦖 基于 Docusaurus 实现的个人小站',
-    preview: '/img/projects/my-blog.png',
-    website: 'https://eksnotebook.com',
-    source: 'https://github.com/electrical-killer/notebook',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'toy',
-  },
-  {
-    title: 'EK的笔记本',
-    description: '🦖 基于 Docusaurus 实现的个人小站',
-    preview: '/img/projects/my-blog.png',
-    website: 'https://eksnotebook.com',
-    source: 'https://github.com/electrical-killer/notebook',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'personal',
-  },
-  {
-    title: 'EK的笔记本',
-    description: '🦖 基于 Docusaurus 实现的个人小站',
-    preview: '/img/projects/my-blog.png',
-    website: 'https://eksnotebook.com',
-    source: 'https://github.com/electrical-killer/notebook',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'commerce',
-  },
-  {
-    title: 'EK的笔记本',
-    description: '🦖 基于 Docusaurus 实现的个人小站',
-    preview: '/img/projects/my-blog.png',
-    website: 'https://eksnotebook.com',
-    source: 'https://github.com/electrical-killer/notebook',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'app',
-  },
 ]
 
 export type Tag = {
@@ -81,7 +27,7 @@ export type Tag = {
 
 export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
 
-export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other' | 'IoT'
+export type ProjectType = 'web' | 'IoT'
 
 export const projectTypeMap = {
   web: '🖥️ 网站',
