@@ -1,5 +1,5 @@
 import svgToDataUri from 'mini-svg-data-uri'
-import type { Config } from 'tailwindcss'
+import { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 
 const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette')
@@ -12,32 +12,35 @@ const twConfig: Config = {
   ],
   darkMode: ['selector', '[data-theme="dark"]'],
   theme: {
-    extend: {
-      colors: {
-        background: 'var(--content-background)',
-        card: 'var(--ifm-card-background-color)',
-        text: 'var(--ifm-text-color)',
-        secondary: 'var(--ifm-secondary-text-color)',
-        link: 'var(--ifm-link-color)',
-        primary: 'var(--ifm-color-primary)',
-        border: 'var(--ifm-border-color)',
-      },
-      fontFamily: {
-        misans: ['misans'],
-      },
-      borderRadius: {
-        card: 'var(--ifm-card-border-radius)',
-      },
-      boxShadow: {
-        blog: 'var(--blog-item-shadow)',
-      },
-      animation: {
-        aurora: 'aurora 60s linear infinite',
-        marquee: 'marquee var(--duration) linear infinite',
-        'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
-      },
-      keyframes: {
-        aurora: {
+  	extend: {
+  		colors: {
+  			background: 'var(--content-background)',
+  			card: 'var(--ifm-card-background-color)',
+  			text: 'var(--ifm-text-color)',
+  			secondary: 'var(--ifm-secondary-text-color)',
+  			link: 'var(--ifm-link-color)',
+  			primary: 'var(--ifm-color-primary)',
+  			border: 'var(--ifm-border-color)'
+  		},
+  		fontFamily: {
+  			misans: [
+  				'misans'
+  			]
+  		},
+  		borderRadius: {
+  			card: 'var(--ifm-card-border-radius)'
+  		},
+  		boxShadow: {
+  			blog: 'var(--blog-item-shadow)'
+  		},
+  		animation: {
+  			aurora: 'aurora 60s linear infinite',
+  			marquee: 'marquee var(--duration) linear infinite',
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+  			orbit: 'orbit calc(var(--duration)*1s) linear infinite'
+  		},
+  		keyframes: {
+  			aurora: {
   				from: {
   					backgroundPosition: '50% 50%, 50% 50%'
   				},
@@ -45,16 +48,32 @@ const twConfig: Config = {
   					backgroundPosition: '350% 50%, 350% 50%'
   				}
   			},
-        marquee: {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(calc(-100% - var(--gap)))' },
-        },
-        'marquee-vertical': {
-          from: { transform: 'translateY(0)' },
-          to: { transform: 'translateY(calc(-100% - var(--gap)))' },
-        },
-      },
-    },
+  			marquee: {
+  				from: {
+  					transform: 'translateX(0)'
+  				},
+  				to: {
+  					transform: 'translateX(calc(-100% - var(--gap)))'
+  				}
+  			},
+  			'marquee-vertical': {
+  				from: {
+  					transform: 'translateY(0)'
+  				},
+  				to: {
+  					transform: 'translateY(calc(-100% - var(--gap)))'
+  				}
+  			},
+  			orbit: {
+  				'0%': {
+  					transform: 'rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)'
+  				},
+  				'100%': {
+  					transform: 'rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)'
+  				}
+  			}
+  		}
+  	}
   },
   corePlugins: {
     preflight: false, // 禁用 Tailwind 的基础样式重置

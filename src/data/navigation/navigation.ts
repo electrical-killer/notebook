@@ -237,10 +237,10 @@ export const navigationData: NavigationCategory[] = [
         href: 'https://fontawesome.com/',
       },
       {
-        name: 'Svgsilh',
-        desc: '优质的小型svg格式插图',
-        logo: 'https://svgsilh.com/favicon.ico',
-        href: 'https://svgsilh.com/',
+        name: 'iconfont',
+        desc: '阿里巴巴矢量图标库',
+        logo: 'https://img.alicdn.com/imgextra/i4/O1CN01XZe8pH1USpiUNT1QN_!!6000000002517-2-tps-114-114.png',
+        href: 'https://www.iconfont.cn/',
       },
       {
         name: 'Octodex',

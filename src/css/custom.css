@@ -77,6 +77,13 @@
     
     --docusaurus-highlighted-code-line-bg: #4b5563;
   }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background;
+  }
 }
 
 .docs-img {

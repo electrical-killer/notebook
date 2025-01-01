@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AuroraBackground } from "@site/components/ui/aurora-background";
 import ProjectSection from './_components/ProjectSection'
+import PageOrbitingCircles from './_components/PageOrbitingCircles'
 import styles from './styles.module.css';
 
 export default function HomepageFeatures(): JSX.Element {
@@ -22,7 +23,11 @@ export default function HomepageFeatures(): JSX.Element {
               Background lights are cool you know.
             </div> */}
 
-              {/* 首页项目展板 */}
+
+            {/* 首页头像圆圈 */}
+            <PageOrbitingCircles className="animate-orbit"/>
+
+            {/* 首页项目展板 */}
             {/* <div className="relative">
               <div className="mx-auto max-w-7xl bg-background lg:px-8">
                 <ProjectSection />
