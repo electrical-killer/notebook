@@ -69,7 +69,10 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
+        },
+        sitemap: {
+          priority: 0.5,
         },
       } satisfies Preset.Options,
     ],
@@ -77,6 +80,7 @@ const config: Config = {
 
   plugins: [
     ["docusaurus-plugin-image-zoom", {}],
+    ["@docusaurus/plugin-ideal-image", {}],
     // async function myPlugin(context, options) {
     //   return {
     //     name: 'docusaurus-tailwindcss',
@@ -88,6 +92,17 @@ const config: Config = {
     //     },
     //   };
     // },
+    async function tailwindcssPlugin() {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require('tailwindcss'))
+          postcssOptions.plugins.push(require('autoprefixer'))
+          return postcssOptions
+        },
+      }
+    },
   ],
 
   themeConfig: {
@@ -96,7 +111,7 @@ const config: Config = {
     /* 默认主题色 */
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: true,
+      disableSwitch: false,
     },
     docs: {
       sidebar: {
@@ -137,9 +152,9 @@ const config: Config = {
           ],
         },
         {
-          label: 'Project',
+          label: 'Project.Docx',
           position: 'left',
-          to: '/docs/project',
+          to: '/docs/project.docx',
         },
         // {
         //   label: 'Other',
@@ -187,7 +202,11 @@ const config: Config = {
               to: '.',
             },
             {
-              label: '导航',
+              label: '项目展柜',
+              to: '/projects',
+            },
+            {
+              label: '有趣导航',
               to: '/navigation',
             },
           ],

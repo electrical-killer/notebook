@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import cn from "../../src/lib/utils"
+import { cn } from "@site/src/lib/utils"
 
 interface AuroraBackgroundProps extends React.HTMLProps<HTMLDivElement> {
   children: ReactNode;
@@ -24,8 +24,7 @@ return (
   (<main>
     <div
       className={cn(
-        // "relative flex flex-col  h-[100vh] items-center justify-center bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg", // 暗色控制后的样式是否与下方一致??
-        "relative flex flex-col  h-[100vh] items-center justify-center dark:bg-zinc-900  text-slate-850 transition-bg",
+        "relative flex flex-col  h-[100vh] items-center justify-center bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg", // 暗色控制后的样式是否与下方一致??
         className
       )}
       {...props}>
