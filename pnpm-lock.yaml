@@ -26,9 +26,6 @@ importers:
       '@giscus/react':
         specifier: ^3.0.0
         version: 3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@iconify/react':
-        specifier: ^5.1.0
-        version: 5.1.0(react@18.3.1)
       '@jridgewell/trace-mapping':
         specifier: ^0.3.25
         version: 0.3.25
@@ -1281,14 +1278,6 @@ packages:
 
   '@hapi/topo@5.1.0':
     resolution: {integrity: sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==}
-
-  '@iconify/react@5.1.0':
-    resolution: {integrity: sha512-vj2wzalywy23DR37AnsogMPIkDa1nKEqITjxpH4z44tiLV869Mh7VyydD4/t0yJLEs9tsxlrPWtXvMOe1Lcd5g==}
-    peerDependencies:
-      react: '>=16'
-
-  '@iconify/types@2.0.0':
-    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -7504,13 +7493,6 @@ snapshots:
   '@hapi/topo@5.1.0':
     dependencies:
       '@hapi/hoek': 9.3.0
-
-  '@iconify/react@5.1.0(react@18.3.1)':
-    dependencies:
-      '@iconify/types': 2.0.0
-      react: 18.3.1
-
-  '@iconify/types@2.0.0': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
