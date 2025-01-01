@@ -69,7 +69,10 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
+        },
+        sitemap: {
+          priority: 0.5,
         },
       } satisfies Preset.Options,
     ],
@@ -89,6 +92,17 @@ const config: Config = {
     //     },
     //   };
     // },
+    async function tailwindcssPlugin() {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require('tailwindcss'))
+          postcssOptions.plugins.push(require('autoprefixer'))
+          return postcssOptions
+        },
+      }
+    },
   ],
 
   themeConfig: {
@@ -192,7 +206,7 @@ const config: Config = {
               to: '/projects',
             },
             {
-              label: '导航',
+              label: '有趣导航',
               to: '/navigation',
             },
           ],

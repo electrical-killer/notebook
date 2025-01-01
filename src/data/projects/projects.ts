@@ -81,15 +81,16 @@ export type Tag = {
 
 export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
 
-export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other'
+export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other' | 'IoT'
 
 export const projectTypeMap = {
   web: '🖥️ 网站',
-  app: '💫 应用',
-  commerce: '商业项目',
-  personal: '👨‍💻 个人',
-  toy: '🔫 玩具',
-  other: '🗃️ 其他',
+  IoT: '📱 物联网',
+  // app: '💫 应用',
+  // commerce: '商业项目',
+  // personal: '👨‍💻 个人',
+  // toy: '🔫 玩具',
+  // other: '🗃️ 其他',
 }
 
 export type Project = {
