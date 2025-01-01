@@ -84,6 +84,24 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://www.oryoy.com/favicon.ico',
         href: 'https://www.oryoy.com/',
       },
+      {
+        name: 'Alan',
+        desc: '此刻想举重若轻，之前必要负重前行',
+        logo: 'https://avatars.githubusercontent.com/u/49978973?v=4',
+        href: 'https://www.alanwang.site/',
+      },
+      {
+        name: '狄云',
+        desc: '产品、技术相关，想到哪写到哪',
+        logo: 'https://files.diyun.site/blog/2024/07/7fae6d19f5561324c078bebcfe19cbff.webp',
+        href: 'https://www.diyun.site',
+      },
+      {
+        name: 'One',
+        desc: '明心静性，爱自己',
+        logo: 'https://wiki.onedayxyy.cn/img/favicon.ico',
+        href: 'https://onedayxyy.cn/',
+      },
     ],
   },
   {
