@@ -194,10 +194,6 @@ const config: Config = {
               to: 'https://page.eksnotebook.com',
             },
             {
-              label: '博客归档',
-              to: '/blog/archive',
-            },
-            {
               label: '翻译计划',
               to: '.',
             },
@@ -235,6 +231,10 @@ const config: Config = {
               label: '站点监控',
               to: '.',
             },
+            {
+              label: '博客归档',
+              to: '/blog/archive',
+            },
           ],
         },
       ],
@@ -256,8 +256,7 @@ const config: Config = {
                       蒙ICP备2024020206号
                     </a>
                   </p>
-                  <p>Copyright © 2024 - ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.</p>
-                  <p>Great things are done by a series of small things brought together. -- Vincent Van Gogh</p>`,
+                  <p>Copyright © 2024 - ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.</p>`,
     },
     prism: {
       theme: prismThemes.github,

@@ -21,6 +21,7 @@
     "@docusaurus/preset-classic": "3.6.3",
     "@docusaurus/theme-common": "^3.6.3",
     "@giscus/react": "^3.0.0",
+    "@iconify/react": "^5.1.0",
     "@jridgewell/trace-mapping": "^0.3.25",
     "@mdx-js/react": "^3.0.0",
     "@tailwindcss/typography": "^0.5.15",

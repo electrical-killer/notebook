@@ -3,7 +3,6 @@ import OrbitingCircles from "@site/components/ui/orbiting-circles";
 
 export default function PageOrbitingCircles() : JSX.Element {
   return (
-    // <div className="relative flex h-[600px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
     <div className="relative flex h-[calc(100vh-16px)] w-[calc(100vh-16px)] flex-col items-start justify-center rounded-lg p-4">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-black">
         E K
@@ -11,7 +10,7 @@ export default function PageOrbitingCircles() : JSX.Element {
 
       {/* Inner Circles */}
       <OrbitingCircles
-        className="size-[100px] border-none bg-transparent"
+        className="size-[70px] border-none bg-transparent"
         radius={140}
         duration={15}
         delay={4}
@@ -19,7 +18,7 @@ export default function PageOrbitingCircles() : JSX.Element {
         <Icons.clanguage />
       </OrbitingCircles>
       <OrbitingCircles
-        className="size-[100px] border-none bg-transparent"
+        className="size-[70px] border-none bg-transparent"
         radius={180}
         duration={13}
         delay={10}
@@ -28,8 +27,8 @@ export default function PageOrbitingCircles() : JSX.Element {
         <Icons.pythonlanguage />
       </OrbitingCircles>
       <OrbitingCircles
-        className="size-[100px] border-none bg-transparent"
-        radius={220}
+        className="size-[70px] border-none bg-transparent"
+        radius={156}
         duration={19}
         delay={13}
         reverse
@@ -39,8 +38,8 @@ export default function PageOrbitingCircles() : JSX.Element {
 
       {/* Outer Circles (reverse) */}
       <OrbitingCircles
-        className="size-[100px] border-none bg-transparent"
-        radius={260}
+        className="size-[70px] border-none bg-transparent"
+        radius={169}
         duration={9}
         delay={17}
         reverse
@@ -48,8 +47,8 @@ export default function PageOrbitingCircles() : JSX.Element {
         <Icons.gitHub />
       </OrbitingCircles>
       <OrbitingCircles
-        className="size-[100px] border-none bg-transparent"
-        radius={300}
+        className="size-[70px] border-none bg-transparent"
+        radius={176}
         duration={11}
         delay={19}
       >
