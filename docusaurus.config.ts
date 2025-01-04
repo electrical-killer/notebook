@@ -32,8 +32,10 @@ const config: Config = {
   organizationName: 'electrical-killer', // Usually your GitHub org/user name.
   projectName: 'https://github.com/electrical-killer/notebook', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  /* 遇到断开的链接, 选择抛出错误警告, 不会报错无法编译 */
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'log',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
