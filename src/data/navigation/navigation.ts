@@ -652,6 +652,12 @@ export const navigationData: NavigationCategory[] = [
         logo: 'https://static.jyshare.com/images/c-runoob-logo.ico',
         href: 'https://www.jyshare.com/',
       },
+      {
+        name: 'Base64大师',
+        desc: '虚拟老师向我揭秘Base64的秘密',
+        logo: 'https://static.base64.guru/img/guru.png',
+        href: 'https://base64.guru/',
+      },
     ],
   },
   // {

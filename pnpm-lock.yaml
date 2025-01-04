@@ -35,6 +35,12 @@ importers:
       '@mdx-js/react':
         specifier: ^3.0.0
         version: 3.1.0(@types/react@18.3.12)(react@18.3.1)
+      '@slorber/react-ideal-image':
+        specifier: ^0.0.14
+        version: 0.0.14(react-waypoint@10.3.0(react@18.3.1))(react@18.3.1)
+      '@tabler/icons-react':
+        specifier: ^3.26.0
+        version: 3.26.0(react@18.3.1)
       '@tailwindcss/typography':
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.15)
@@ -1403,6 +1409,13 @@ packages:
       react: '>=0.14.x'
       react-waypoint: '>=9.0.2'
 
+  '@slorber/react-ideal-image@0.0.14':
+    resolution: {integrity: sha512-ULJ1VtNg+B5puJp4ZQzEnDqYyDT9erbABoQygmAovg35ltOymLMH8jXPuxJQBVskcmaG29bTZ+++hE/PAXRgxA==}
+    engines: {node: '>= 8.9.0', npm: '> 3'}
+    peerDependencies:
+      react: '>=0.14.x'
+      react-waypoint: '>=9.0.2'
+
   '@slorber/remark-comment@1.0.0':
     resolution: {integrity: sha512-RCE24n7jsOj1M0UPvIQCHTe7fI0sFL4S2nwKVWwHyVr/wI/H8GosgsJGyhnsZoGFnD/P2hLf1mSbrrgSLN93NA==}
 
@@ -1487,6 +1500,14 @@ packages:
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
     engines: {node: '>=14.16'}
+
+  '@tabler/icons-react@3.26.0':
+    resolution: {integrity: sha512-t18Zmu1ROktB7M8hWQ6vJw+mNpI/LPk5PPxLuE+kNB+4Zzf38GfETL8VF98inhzcfHohsggdROzMzwSAfjcAxw==}
+    peerDependencies:
+      react: '>= 16'
+
+  '@tabler/icons@3.26.0':
+    resolution: {integrity: sha512-oO3D4ss+DxzxqU1aDy0f1HmToyrO0gcQWIMpzHAfV1quPUx0BZYvNm5xz1DQb4DxNm/+xNvbBGLJy4pzTLYWag==}
 
   '@tailwindcss/typography@0.5.15':
     resolution: {integrity: sha512-AqhlCXl+8grUz8uqExv5OTtgpjuVIwFTSXTrh8y9/pw6q2ek7fJ+Y8ZEVw7EB2DCcuCOtEjf9w3+J3rzts01uA==}
@@ -7651,6 +7672,11 @@ snapshots:
       react: 18.3.1
       react-waypoint: 10.3.0(react@18.3.1)
 
+  '@slorber/react-ideal-image@0.0.14(react-waypoint@10.3.0(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
+      react-waypoint: 10.3.0(react@18.3.1)
+
   '@slorber/remark-comment@1.0.0':
     dependencies:
       micromark-factory-space: 1.1.0
@@ -7753,6 +7779,13 @@ snapshots:
   '@szmarczak/http-timer@5.0.1':
     dependencies:
       defer-to-connect: 2.0.1
+
+  '@tabler/icons-react@3.26.0(react@18.3.1)':
+    dependencies:
+      '@tabler/icons': 3.26.0
+      react: 18.3.1
+
+  '@tabler/icons@3.26.0': {}
 
   '@tailwindcss/typography@0.5.15(tailwindcss@3.4.15)':
     dependencies:

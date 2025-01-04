@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AuroraBackground } from "@site/components/ui/aurora-background";
-import ProjectSection from './_components/ProjectSection'
+import { ProjectSection } from './_components/ProjectSection'
 import PageOrbitingCircles from './_components/PageOrbitingCircles'
 import styles from './styles.module.css';
 
@@ -29,12 +29,12 @@ export default function HomepageFeatures(): JSX.Element {
 
             {/* 首页项目展板 */}
             {/* <div className="relative">
-              <div className="mx-auto max-w-7xl bg-background lg:px-8">
+              <div className="mx-auto max-w-7xl bg-background lg:px-8 z-10 relative">
                 <ProjectSection />
               </div>
               <div
-                className="-z-50 absolute inset-0 bg-grid-slate-50 [mask-image:linear-gradient(0deg,#fff,rgba(255,255,255,0.3))] dark:bg-grid-slate-700/25 dark:[mask-image:linear-gradient(0deg,rgba(255,255,255,0.1),rgba(255,255,255,0.5))]"
-                style={{ backgroundPosition: '10px 10px;' }}
+                className="absolute inset-0 bg-grid-slate-50 [mask-image:linear-gradient(0deg,#fff,rgba(255,255,255,0.3))] dark:bg-grid-slate-700/25 dark:[mask-image:linear-gradient(0deg,rgba(255,255,255,0.1),rgba(255,255,255,0.5))]"
+                style={{ backgroundPosition: '10px 10px' }}
               />
             </div> */}
 

@@ -40,7 +40,7 @@ const Slider = ({ items }: { items: Project[] }) => {
   )
 }
 
-export default function ProjectSection() : JSX.Element {
+export function ProjectSection() : JSX.Element {
   return (
     <Section
       title={<Translate id="homepage.project.title">项目展示</Translate>}

@@ -36,7 +36,6 @@ const twConfig: Config = {
   		animation: {
   			aurora: 'aurora 60s linear infinite',
   			marquee: 'marquee var(--duration) linear infinite',
-  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   			orbit: 'orbit calc(var(--duration)*1s) linear infinite'
   		},
   		keyframes: {
@@ -54,14 +53,6 @@ const twConfig: Config = {
   				},
   				to: {
   					transform: 'translateX(calc(-100% - var(--gap)))'
-  				}
-  			},
-  			'marquee-vertical': {
-  				from: {
-  					transform: 'translateY(0)'
-  				},
-  				to: {
-  					transform: 'translateY(calc(-100% - var(--gap)))'
   				}
   			},
   			orbit: {
