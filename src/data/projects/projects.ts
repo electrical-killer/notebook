@@ -17,6 +17,33 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
+  {
+    title: '星空钟',
+    description: '一个漂亮的星空罗盘',
+    preview: '/img/projects/StarClock.png',
+    website: 'https://electrical-killer.github.io/Star_clock/',
+    source: 'https://github.com/electrical-killer/Star_clock',
+    tags: ['opensource', 'design', 'favorite'],
+    type: 'web',
+  },
+  {
+    title: 'HDSS MQTT',
+    description: 'STM32+MQTT的温湿度管理系统下位机(毕设)',
+    preview: '/img/projects/HDSS-MQTT.png',
+    website: './',
+    source: 'https://gitee.com/electrical-killer/hdss-mqtt',
+    tags: ['personal'],
+    type: 'IoT',
+  },
+  {
+    title: 'MQTT User side',
+    description: 'STM32+MQTT的温湿度管理系统小程序(毕设)',
+    preview: '/img/projects/mqtt-user-side.png',
+    website: './',
+    source: 'https://gitee.com/electrical-killer/mqtt-user-side',
+    tags: ['personal'],
+    type: 'app',
+  },
 ]
 
 export type Tag = {
@@ -27,12 +54,12 @@ export type Tag = {
 
 export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
 
-export type ProjectType = 'web' | 'IoT'
+export type ProjectType = 'web' | 'IoT' | 'app'
 
 export const projectTypeMap = {
   web: '🖥️ 网站',
-  IoT: '📱 物联网',
-  // app: '💫 应用',
+  IoT: '📶 物联网',
+  app: '📱 应用',
   // commerce: '商业项目',
   // personal: '👨‍💻 个人',
   // toy: '🔫 玩具',
