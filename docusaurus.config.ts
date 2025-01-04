@@ -183,7 +183,7 @@ const config: Config = {
         },
       ],
     },
-    footer: {
+/*     footer: {
       style: 'dark',
       links: [
         {
@@ -257,7 +257,7 @@ const config: Config = {
                     </a>
                   </p>
                   <p>Copyright © 2024 - ${new Date().getFullYear()} Electrical Killer, Inc. Built with Docusaurus.</p>`,
-    },
+    }, */
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

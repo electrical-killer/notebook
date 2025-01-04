@@ -9,10 +9,10 @@ interface FooterSectionProps {
 export const FooterSection: React.FC<FooterSectionProps> = ({ title, items }) => {
   return (
     <div className="flex justify-center space-y-4 flex-col">
-      <p className="transition-colors hover:text-text-neutral-800 text-neutral-600 dark:text-neutral-300 font-bold">
+      <ul className="transition-colors hover:text-text-neutral-800 text-neutral-600 dark:text-neutral-300 font-bold text-center">
         {title}
-      </p>
-      <ul className="transition-colors hover:text-text-neutral-800 text-neutral-600 dark:text-neutral-300 list-none space-y-4">
+      </ul>
+      <ul className="transition-colors hover:text-text-neutral-800 text-neutral-600 dark:text-neutral-300 list-none space-y-4 text-center">
         {items.map((item, idx) => (
           <li key={`${title}-${idx}`} className="list-none">
             <Link

@@ -1,5 +1,5 @@
 import React from 'react';
-import IdealImage from '@theme/IdealImage';
+import Image from '@theme/IdealImage';
 import Link from '@docusaurus/Link';
 
 export const Logo: React.FC = () => {
@@ -8,13 +8,13 @@ export const Logo: React.FC = () => {
       href="/"
       className="font-normal flex space-x-2 items-center text-sm mr-4 text-black px-2 py-1 relative z-20"
     >
-      <IdealImage
+      <Image
         src="https://assets.aceternity.com/logo-dark.png"
         alt="logo"
         width={30}
         height={30}
       />
-      <span className="font-medium text-black dark:text-white">DevStudio</span>
+      <span className="font-medium text-black dark:text-white">EK's Notebook</span>
     </Link>
   );
 };

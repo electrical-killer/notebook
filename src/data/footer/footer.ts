@@ -1,28 +1,44 @@
 export const pages = [
   {
-    title: "All Products",
-    href: "#",
+    title: "最美主页",
+    href: "https://page.eksnotebook.com",
+  },
+  {
+    title: "翻译计划",
+    href: ".",
+  },
+  {
+    title: "项目展柜",
+    href: "/projects",
+  },
+  {
+    title: "导航收藏",
+    href: "/navigation",
   },
 ];
 
 export const socials = [
   {
-    title: "Facebook",
-    href: "#",
+    title: "E-mail",
+    href: "mailto:1670210410@qq.com",
   },
-];
-
-export const legals = [
   {
-    title: "Privacy Policy",
-    href: "#",
+    title: "WeChat",
+    href: "https://img.eksnotebook.com/images/202411161854161.png",
   },
 ];
 
-export const signups = [
+export const func = [
   {
-    title: "Sign Up",
-    href: "#",
+    title: "访问统计",
+    href: "https://cloud.umami.is/share/B14wXOsk9mZbLznR/eksnotebook.com",
+  },
+  {
+    title: "站点监控",
+    href: ".",
+  },
+  {
+    title: "博客归档",
+    href: "/blog/archive",
   },
 ];
-

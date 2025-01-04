@@ -93,6 +93,13 @@
   @apply mx-auto;
 }
 
+.docs-img-double {
+  @apply max-w-[25%];
+  @apply h-auto;
+  @apply block;
+  @apply mx-auto;
+}
+
 a:hover {
   @apply no-underline;
 }
