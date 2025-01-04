@@ -6,7 +6,8 @@ import { Logo } from './_components/Logo';
 
 export function SimpleFooterWithFourGrids() : JSX.Element {
   return (
-    <div className="border-t border-neutral-100 dark:border-white/[0.1] px-8 py-20 bg-white dark:bg-neutral-950 w-full relative overflow-hidden">
+    // <div className="border-t border-neutral-100 dark:border-white/[0.1] px-8 py-20 bg-white dark:bg-neutral-950 w-full relative overflow-hidden"> {/* 黑白背景 */}
+    <div className="border-t border-neutral-100 dark:border-white/[0.1] px-8 py-20  bg-[#f5f5f5] dark:bg-[rgb(36,37,38)] w-full relative overflow-hidden"> {/* 双灰背景 */}
       <div className="max-w-7xl mx-auto text-sm text-neutral-500 flex sm:flex-row flex-col justify-between items-start md:px-8">
         <div>
           <div className="mr-0 md:mr-4 md:flex mb-4">
