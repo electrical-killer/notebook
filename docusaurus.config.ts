@@ -131,7 +131,7 @@ const config: Config = {
       },
       items: [
         // {to: 'https://eksnotebook.com', label: 'Home', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           label: 'Baisc',
           position: 'left',

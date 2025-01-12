@@ -180,6 +180,7 @@ const sidebars: SidebarsConfig = {
             link: { type: "generated-index" },
             items: [
                 'subject_embedded/LoRa/1736252630',
+                'subject_embedded/LoRa/1736689393',
             ],
         },
     ],

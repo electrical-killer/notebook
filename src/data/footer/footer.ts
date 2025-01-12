@@ -4,12 +4,8 @@ export const pages = [
     href: "https://page.eksnotebook.com",
   },
   {
-    title: "翻译计划",
-    href: ".",
-  },
-  {
-    title: "阅读总结",
-    href: ".",
+    title: "我的博客",
+    href: "/blog",
   },
   {
     title: "项目展柜",
@@ -19,6 +15,14 @@ export const pages = [
     title: "导航收藏",
     href: "/navigation",
   },
+  // {
+  //   title: "翻译计划",
+  //   href: ".",
+  // },
+  // {
+  //   title: "阅读总结",
+  //   href: ".",
+  // },
 ];
 
 export const socials = [
