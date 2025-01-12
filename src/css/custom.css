@@ -5,23 +5,23 @@
 
 @layer base {
   :root {
-    --content-background: #fefefe;
-    --ifm-color-primary: #12affa;
-    --ifm-color-primary-dark: #05a1ec;
-    --ifm-color-primary-darker: #0598df;
-    --ifm-color-primary-darkest: #047eb8;
-    --ifm-color-primary-light: #2cb8fb;
-    --ifm-color-primary-lighter: #b0e6ff;
-    --ifm-color-primary-lightest: #d5f1fd;
+    --content-background: #fefefe; /* 浅灰色背景 */
+    --ifm-color-primary: #2ecc71; /* 绿色，作为主题色 */
+    --ifm-color-primary-dark: #27ae60; /* 更深的绿色 */
+    --ifm-color-primary-darker: #2c3e50; /* 最深的绿色 */
+    --ifm-color-primary-darkest: #1abc9c; /* 最深的绿色 */
+    --ifm-color-primary-light: #3498db; /* 浅绿色 */
+    --ifm-color-primary-lighter: #2980b9; /* 更浅的绿色 */
+    --ifm-color-primary-lightest: #16a085; /* 最浅的绿色 */
     --ifm-code-font-size: 95%;
     --ifm-font-family-base: misans, ui-sans-serif, system-ui, -apple-system;
     
     --ifm-heading-font-family: ui-sans-serif, system-ui, -apple-system;
     
-    --ifm-navbar-background-color: white;
+    --ifm-navbar-background-color: white; /* 浅灰色背景 */
     --ifm-navbar-shadow: 0 4px 28px rgb(0 0 0 / 10%);
     
-    --ifm-menu-color: #0d203a;
+    --ifm-menu-color: #0d203a; /* 深蓝色 */
     
     /* 代码块 */
     --prism-background-color: #f6f8fa;
@@ -29,21 +29,21 @@
     --ifm-code-padding-vertical: 0.2rem;
     
     /* 文本 */
-    --ifm-text-color: #333;
-    --ifm-secondary-text-color: #555;
+    --ifm-text-color: #333; /* 深灰色 */
+    --ifm-secondary-text-color: #555; /* 中灰色 */
     
-    --site-primary-hue-saturation: 167 68%;
-    --site-primary-hue-saturation-light: 167 56%;
+    --site-primary-hue-saturation: 120 50%; /* 绿色 */
+    --site-primary-hue-saturation-light: 120 40%; /* 绿色 */
     
-    --site-color-favorite-background: #f6fdfd;
+    --site-color-favorite-background: #f6fdfd; /* 浅灰色背景 */
     --site-color-tooltip: #fff;
-    --site-color-tooltip-background: #353738;
+    --site-color-tooltip-background: #353738; /* 深灰色 */
     --site-color-svg-icon-favorite: #e9669e;
-    --site-color-checkbox-checked-bg: hsl(167deg 56% 73% / 25%);
+    --site-color-checkbox-checked-bg: hsl(120deg 50% 73% / 25%); /* 浅绿色 */
     
     --ifm-container-width: 1024px;
     
-    --ifm-heading-color: hsl(214deg 78% 17%);
+    --ifm-heading-color: hsl(214deg 78% 17%); /* 深蓝色 */
     --ifm-heading-font-weight: 500;
     --ifm-font-weight-bold: 520;
     --ifm-border-color: #e5e7eb;
@@ -56,26 +56,39 @@
     -webkit-font-smoothing: unset;
     
     --docusaurus-highlighted-code-line-bg: #d1d5db;
+    
+    /* 链接颜色 */
+    --ifm-link-color: #333; /* 深灰色 */
+    --ifm-link-color-hover: #555; /* 中灰色 */
   }
   
   html[data-theme='dark'] {
-    --content-background: #18181b;
-    --ifm-color-primary: hsl(214deg 100% 60%);
-    --ifm-color-primary-light: hsl(214deg 100% 75%);
+    --content-background: #1b1b1d; /* 深灰色背景 */
+    --ifm-color-primary: #8b5cf6; /* 紫色，作为主题色 */
+    --ifm-color-primary-dark: #7c3aed; /* 更深的紫色 */
+    --ifm-color-primary-darker: #6d28d9; /* 最深的紫色 */
+    --ifm-color-primary-darkest: #5b21b6; /* 最深的紫色 */
+    --ifm-color-primary-light: #a78bfa; /* 浅紫色 */
+    --ifm-color-primary-lighter: #c4b5fd; /* 更浅的紫色 */
+    --ifm-color-primary-lightest: #e0def4; /* 最浅的紫色 */
     --ifm-heading-color: hsl(0deg 0% 100%);
-    --ifm-menu-color: #eceef1;
-    --ifm-text-color: var(--ifm-menu-color);
-    --ifm-secondary-text-color: #eee;
+    --ifm-menu-color: #eceef1; /* 浅灰色 */
+    --ifm-text-color: var(--ifm-menu-color); /* 浅灰色 */
+    --ifm-secondary-text-color: #eee; /* 浅灰色 */
     --ifm-border-color: #313131;
     
     --ifm-navbar-background-color: var(--content-background);
     --ifm-toc-border-color: var(--ifm-border-color);
     
-    --blog-item-background-color: linear-gradient(180deg, #171717, #18181b);
+    --blog-item-background-color: linear-gradient(180deg, #171717, #1b1b1d);
     --blog-item-shadow: 0 10px 18px #25374833, 0 0 8px #25374866;
     --blog-item-shade: #27272a;
     
     --docusaurus-highlighted-code-line-bg: #4b5563;
+    
+    /* 链接颜色 */
+    --ifm-link-color: #eceef1; /* 浅灰色 */
+    --ifm-link-color-hover: #fff; /* 白色 */
   }
 
   * {
@@ -85,6 +98,7 @@
     @apply font-sans antialiased bg-background;
   }
 }
+
 
 .docs-img {
   @apply max-w-[50%];

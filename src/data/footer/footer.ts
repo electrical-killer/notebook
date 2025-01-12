@@ -8,6 +8,10 @@ export const pages = [
     href: ".",
   },
   {
+    title: "阅读总结",
+    href: ".",
+  },
+  {
     title: "项目展柜",
     href: "/projects",
   },
