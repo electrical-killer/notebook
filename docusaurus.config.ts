@@ -178,14 +178,14 @@ const config: Config = {
             { label: 'Website', to: '/website',},
           ],
         },
-        {
-          label: 'Warehouse',
-          position: 'right',
-          items: [
-            { label: 'GitHub', to: 'https://github.com/electrical-killer',},
-            { label: 'Gitee', to: 'https://gitee.com/electrical-killer',},
-          ],
-        },
+        // {
+        //   label: 'Warehouse',
+        //   position: 'right',
+        //   items: [
+        //     { label: 'GitHub', to: 'https://github.com/electrical-killer',},
+        //     { label: 'Gitee', to: 'https://gitee.com/electrical-killer',},
+        //   ],
+        // },
       ],
     },
 /*     footer: {

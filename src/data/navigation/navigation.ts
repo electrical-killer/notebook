@@ -567,7 +567,7 @@ export const navigationData: NavigationCategory[] = [
     ],
   },
   {
-    name: 'Github',
+    name: 'Git',
     navigations: [
       {
         name: 'Gitstar Ranking',
@@ -586,6 +586,12 @@ export const navigationData: NavigationCategory[] = [
         desc: '一个Github 个人主页 README 生成器',
         logo: 'https://rahuldkjain.github.io/gh-profile-readme-generator/icons/icon-144x144.png?v=040f54e2f6c858e0a3dcf568c3f2b6f1',
         href: 'https://rahuldkjain.github.io/gh-profile-readme-generator/',
+      },
+      {
+        name: '开源工具包',
+        desc: '一个集合了各类热门软件安装包的gitcode资源库',
+        logo: 'https://cdn-static.gitcode.com/static/images/logo-favicon.png',
+        href: 'https://gitcode.com/open-source-toolkit',
       },
       // {
       //   name: 'Github 统计生成器',
